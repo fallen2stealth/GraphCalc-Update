@@ -1,0 +1,12 @@
+#While Testing
+i=1
+While(i<7)
+	If(i>5)
+		j=i^2
+	EndIf
+	b=4
+	While(b==i)
+		b=b-1
+	EndWhile
+	i=i+1
+EndWhile

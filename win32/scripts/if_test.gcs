@@ -1,0 +1,62 @@
+#If Testing
+valid=1
+If(valid)
+	If(1)
+		good=1
+		If(0)
+			bad=1
+		ElseIf(0)
+			bad=2
+		ElseIf(1)
+			good=2
+		ElseIf(1)
+			bad=3
+		EndIf
+		good=3
+	ElseIf(1)
+		bad=4
+	EndIf
+	good=4
+ElseIf(1)
+	bad=4
+EndIf
+done=23
+If(23)
+	yeahagain=234
+EndIf
+If(valid)
+	If(0)
+		bad=1
+		If(0)
+			bad=2
+		ElseIf(0)
+			bad=3
+		ElseIf(1)
+			bad=4
+		ElseIf(1)
+			bad=5
+		EndIf
+		bad=6
+	ElseIf(1)
+		good=1
+	EndIf
+	good=2
+ElseIf(0)
+	bad=6
+Else
+	badElse=1
+EndIf
+
+If(0)
+	bad=0
+Else
+	yeahElse=1
+EndIf
+
+If(0)
+	bad=0
+ElseIf(0)
+	bad=1
+Else
+	yeahElse=2
+EndIf

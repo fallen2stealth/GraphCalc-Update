@@ -1,0 +1,4 @@
+#Volume of Cube
+[Tab=output]
+[PromptVal=a:Enter the length of the side of the cube]
+a^3

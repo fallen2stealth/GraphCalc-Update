@@ -1,0 +1,4 @@
+#Surface Area of Cube
+[Tab=output]
+[PromptVal=a]
+6*a^2

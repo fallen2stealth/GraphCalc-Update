@@ -1,0 +1,242 @@
+#Engine
+[Comment=****** Calculator Engine Tests ******]
+a=2
+1+2
+2+a
+a*a
+asdf=a
+asdf
+asdf*a
+asdf+3
+a+asdf
+a=asdf-56.45
+sin(asdf)+a
+2-3
+1.1
+1.01
+10.1
+10.01
+-10.01
+9.99
+9.99999999999999
+9.999999999999999
+-9.99999999999999
+-9.999999999999999
+-99999999.9999999
+-99999999.99999999
+sin(0)
+sin(0.0)
+sin(1-1)
+sin(Math|pi)
+cos(-0.3457829734892748372)
+tan(0.3457829734892748372)
+9*2
+9/3
+9/2
+log(1)
+log(2.0)
+log(-2)
+log(0)
+ln(1)
+ln(2.0)
+ln(-2)
+ln(0)
+2^2
+2^30
+2^-2
+(-2)^-2
+sqrt 5
+sqrt -1
+7*10^8
+33.5 convbase 2
+1024.1 convbase 16
+5*8-9+6-3/2
+abs(ln(0.5))
+fpart(Math|pi)
+ipart((Planets|Mercury|Bulk Parameters|mean density (kg / m^3)))
+round(5.9)
+round(5.4)
+round(5.5)
+round(5.0)
+round(-5.9)
+round(-5.4)
+round(-5.5)
+round(-5.0)
+int(5.9)
+int(5.4)
+int(5.5)
+int(5.0)
+int(-5.9)
+int(-5.4)
+int(-5.5)
+int(-5.0)
+floor(5.9)
+floor(5.4)
+floor(5.5)
+floor(5.0)
+floor(-5.9)
+floor(-5.4)
+floor(-5.5)
+floor(-5.0)
+ceil(5.9)
+ceil(5.4)
+ceil(5.5)
+ceil(5.0)
+ceil(-5.9)
+ceil(-5.4)
+ceil(-5.5)
+ceil(-5.0)
+8%
+101.0001%
+min(5.2:-3.04)
+max(9.9:9.99)
+gcd(99:66)
+lcm(2:3)
+5 mod 9
+9 mod 5
+-5 mod 9
+-9 mod 5
+1.2 mod 10.999
+-3.50009 mod 37.1
+9999 mod 2.1
+0 == 0
+0 > 0
+0 < 0
+0 >= 0
+0 <= 0
+0 != 0
+1 == 0
+1 > 0
+1 < 0
+1 >= 0
+1 <= 0
+1 != 0
+-5.99 == 5.99
+-5.99 > 5.99
+-5.99 < 5.99
+-5.99 >= 5.99
+-5.99 <= 5.99
+-5.99 != 5.99
+3!
+3! - 2
+3! + 2
+2+3!
+2-3!
+123 ncr 20
+123 ncr 123
+123 npr 20
+123 npr 123
+frand(10:123)
+frand(123:20)
+frand(10.10:123.123)
+frand(123.123:20.20)
+frand(-10:123)
+frand(10:-123)
+frand(-123:20)
+frand(123:-20)
+frand(-10.10:123.123)
+frand(10.10:-123.123)
+frand(-123.123:20.20)
+frand(123.123:-20.20)
+irand(10:123)
+irand(123:20)
+irand(10.10:123.123)
+irand(123.123:20.20)
+irand(-10:123)
+irand(10:-123)
+irand(-123:20)
+irand(123:-20)
+irand(-10.10:123.123)
+irand(10.10:-123.123)
+irand(-123.123:20.20)
+irand(123.123:-20.20)
+20(Celsius->Fahrenheit)
+2(m->feet)
+99(revolutions->seconds)
+(1)
+((1))
+((((((((((1))))))))))
+(2(3-4)+9*(4-(2+99)*5)-1)+7
+log(sin(cos(tan(0.5))))
+(Physics|permeability of a vacuum)*(Physics|Rydberg constant)
+2^(2^(2^(2^2)))
+7^2^2^2
+sqrt 4^2
+2.3+(8*9)+1*8+2
+arcsin .8
+arcsin arccos arctan .5
+1+(((((5)))))+1
+cos(0)
+cos(90)
+cos(89.999)
+cos(89.9999)
+cos(89.99999)
+cos(89.999999)
+cos(89.9999999)
+cos(89.99999999)
+cos(89.999999999)
+cos(89.9999999999)
+cos(89.99999999999)
+cos(89.999999999999)
+cos(89.9999999999999)
+cos(89.99999999999999)
+1(light-years->m)
+1(m->light-years)
+1(feet->m)
+1(m->feet)
+1(m->kilometers)
+1(kilometers->m)
+1(angtroms->light-years)
+1(light-years->angtroms)
+sin((0*(Math|pi))/180)
+sin((30*(Math|pi))/180)
+sin((45*(Math|pi))/180)
+sin((60*(Math|pi))/180)
+sin((90*(Math|pi))/180)
+cos((0*(Math|pi))/180)
+cos((30*(Math|pi))/180)
+cos((45*(Math|pi))/180)
+cos((60*(Math|pi))/180)
+cos((90*(Math|pi))/180)
+tan((0*(Math|pi))/180)
+tan((30*(Math|pi))/180)
+tan((45*(Math|pi))/180)
+tan((60*(Math|pi))/180)
+tan((90*(Math|pi))/180)
+sqrt(2)/2
+1/sqrt(2)
+sqrt(3)/3
+1/sqrt(3)
+sqrt(3)/2
+sqrt(3)
+30*(Math|pi)/180
+(Math|pi)/6
+45*(Math|pi)/180
+(Math|pi)/4
+60*(Math|pi)/180
+(Math|pi)/3
+mean(5)
+median(5)
+mode(5)
+stdev(5)
+variance(5)
+mean(5:9:11)
+median(5:9:11)
+mode(5:9:11)
+stdev(5:9:11)
+variance(5:9:11)
+mean(-1:0.2)
+median(-1:0.2)
+mode(-1:0.2)
+stdev(-1:0.2)
+variance(-1:0.2)
+mean(99:99:99)
+median(99:99:99)
+mode(99:99:99)
+stdev(99:99:99)
+variance(99:99:99)
+mean(3:6:2:5:9:2:4)
+median(3:6:2:5:9:2:4)
+mode(3:6:2:5:9:2:4)
+stdev(3:6:2:5:9:2:4)
+variance(3:6:2:5:9:2:4)

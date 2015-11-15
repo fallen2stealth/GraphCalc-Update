@@ -1,0 +1,16 @@
+[AddGraphTab]
+2+2
+[Tab="Graph 2"]
+[Axis=1]
+[Grid=1]
+[CoordinatesPos=1]
+[AxisSize=2]
+sin(x)
+max(23:54)
+[Tab="Graph 2"]
+[Eq7=e^(sin x)]
+[Eq7On=1]
+[Eq7Color=Teal]
+[FullWindow=1]
+[Xmin=0]
+[Xmax=50]

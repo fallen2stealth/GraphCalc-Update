@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{481E6084-A840-11D3-9D44-00104B0D20F9} = s 'GrphCalc'
+		'GrphCalc.EXE'
+		{
+			val AppID = s {481E6084-A840-11D3-9D44-00104B0D20F9}
+		}
+	}
+}

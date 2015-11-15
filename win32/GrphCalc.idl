@@ -1,0 +1,19 @@
+
+	// GrphCalc.idl : IDL source for GrphCalc.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (GrphCalc.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(481E6083-A840-11D3-9D44-00104B0D20F9),
+	version(1.0),
+	helpstring("GrphCalc 1.0 Type Library")
+]
+library GrphCalcLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

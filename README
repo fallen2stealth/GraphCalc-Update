@@ -1,0 +1,43 @@
+Welcome to GraphCalc
+====================
+
+* DESCRIPTION
+
+GraphCalc is a very gui graphing calculator. It has been called a good
+replacement for a TI-85. It is a must for any high school math student.
+It combines the simplicity of a four function figurer with the power of
+2D and 3D graphing.
+
+
+* REQUIREMENTS
+
+The windows version of GraphCalc requires the OpenGL libraries which
+have been included with Windows since version 95b.  If your version of
+Windows is missing OpenGL32.DLL, go to http://www.opengl.org/ to
+download a copy.
+
+When the linux version is ready for distribution, requirements will be
+listed here.
+
+
+* LINKS
+
+http://www.graphcalc.com/ - GraphCalc's homepage
+
+* MAILING LISTS
+
++ announce	New releases and other important announcements
++ users		General discussions and users' experiences
++ devel		Developers community
+
+You can get info about a list by sending a message with just the word
+'help' as the subject or in the body, to:
+
+http://lists.sourceforge.net/lists/listinfo/gcalc-<list>
+
+* CREDITS
+
+Copyright (C) 1999-2003 Michael Arrison, Brendan Fields
+
+GraphCalc is free software, and it is distributed under the GPL
+(please see the file COPYING for details)

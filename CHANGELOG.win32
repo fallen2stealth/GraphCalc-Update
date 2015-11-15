@@ -1,0 +1,173 @@
+4.0, Released November 3rd, 2003
+--------------------------------
+* Fixed mode error which truncated output (Bug #831166)
+
+4.0 beta, Released October 8th, 2003
+-----------------------------------
+* Fixed ncr / npr mathematics
+* Removed extraneous catalog items
+
+4.0 alpha 1, Released Novemeber 19th, 2001
+-----------------------------------------
+* Infobar and Toolbar
+* 2D Parametric Graphing
+* N-Slider for 2D graphing
+* Improved Find Area function
+* CTRL-Left Click + Drag on 2D Graphs
+* New User Interface for creating animations
+
+
+3.1, Released December 9th, 2000
+--------------------------------
+* Improved 3D graphing with wires
+* Table of values for 2D graphs
+* Eliminated the flashing effect when resizing the window
+* An ANS button that allows you to insert your previous answers into the expression box
+* Scripting
+* option to turn the progress dialog off
+* when the progress dialog is off you can press escape to cancel execution of the script 
+* looping capabilities via a While command
+* conditional statements with If and ElseIf
+
+
+3.0, Released October 20th, 2000
+--------------------------------
+* Script Library
+* More commands for displaying and entering information while running a script
+* Improved performance in 3D graphing
+* Auto-rotating feature for 3D graphs
+* You can now use (yn) as part of another equation in your graph, where n is the number of the equation
+* Hex palette for easy access to hex digits
+* New 2D Graphing features...
+  * Option to change the size of the font in 2D graphing
+  * You can now change the font of the detailed output and base
+  * Find the intersection of 2 equations
+  * Find the axis intercepts of an equation
+  * Find local extrema on an equation
+* Font settings are now saved in the settings file
+* Save the output window to a rich text formatted file
+* Equation Solver
+
+2.11, Released May 5th, 2000
+----------------------------
+* Fixed bug with 3D options box giving multiple error warnings 
+
+2.1, Released April 30th, 2000
+------------------------------
+* Fixed bug with 2D graph options crashing
+* Improved scrolling in output window
+* Fixed output window selection problem
+
+2.0, Released April 26th, 2000
+------------------------------
+* Polar graphing 
+* 3D graphing 
+* Scripting Capabilities  (See Command List, Sample Scripts) 
+* Export 3D functions to a DXF file 
+* Saving all graph tabs in the settings file 
+* Saving graphs as a bitmap file 
+* Option to plot 2D graphs as lines or a series of dots
+* Save the output window and expression history on exit 
+
+1.5, Released February 2nd, 2000
+--------------------------------
+* Printing of the graph window
+* Printing of the output area
+* Improved calculating engine, up to 5x faster!
+* Statistics functions
+* Fibonacci function
+
+1.21, Released October 1st, 1999
+--------------------------------
+* More options for output format
+* The variables pi and e are predefined
+* Always on top option
+* Better menu organization
+* Many bug fixes
+
+1.2, Released September 30th, 1999
+----------------------------------
+* More options for output format
+* The variables pi and e are predefined
+* Always on top option
+* Better menu organization
+* Many bug fixes
+
+1.15, Released September 5th, 1999
+----------------------------------
+* Fixed some bugs with trig functions outputting the wrong answer.  (example: cos(0) = 0, that is incorrect, version 1.15 has corrected this problem)
+* The option to use a '.' or ',' as your decimal separator
+* Improved precision with output (example: binary answers can be outputted with 52 digits of precision)
+
+1.1, Released August 27th, 1999
+-------------------------------
+* Many many bug fixes throughout the program
+* The ability to save your settings in a file and load settings from a file.
+* Shortcut keys for many of the operations in GraphCalc.
+* The option of a standard output or a long output.
+* MORE graphing features and improved old ones
+  * evaluate dialog box to evaluate an equation at any given point
+  * ability to draw a tangent line at any point on any equation
+  * find the distance between any two points on any two equations
+  * the cursor position will be displayed on the graph
+  * the speed of tracing has been greatly increased
+  * copy graph to clipboard so you can paste it in another graphics program or in an other application, such as MS Word
+  * change the color of any of the graphing elements
+
+1.0, Released July 20th, 1999
+-----------------------------
+* you can enter an equation to graph in the expression box.  it will automatically be entered in the graph options and will draw the graph for you
+* many improvements in tracing, all bug fixes and error checking
+* we now have a standard edit menu
+* a catalog of all operators from the help menu
+* user entered constants will available in the constants menu (CONS button)
+* base conversions are now available from the base button
+* added the following operators: !, ncr, npr, irand, frand, round, upart, ipart, integer, floor, ceiling, absolute, maximum, minimum, %, mod, lcm, gcd
+* you can now rename the graph tabs
+* added ToolTips to the buttons
+* you can now find the area between two equations
+* added a previous range option to the zoom menu
+
+0.9.0.2 ALPHA
+-------------
+* double click in graph centers on the spot you clicked
+* formula box is now a drop-down combo box containg a history of all formulas entered
+* added an option in the clear menu to clear the formula history combo box
+
+0.9.0.1
+-------
+* added support for bases from 2 to 36
+* major bug fixes in the tranlator
+* added support for user entered variables
+* auto-panning when tracing
+* auto-convert to scientific notation when answer is too large or small
+* fixed GDI problems with tracing
+* many other small bugs have been fixed as well
+* help files
+	
+0.4.1.99
+--------
+* added dy/dx into tracing
+* fixed trace menu item
+    
+	
+0.3.14.99
+---------
+* number of combinations
+* number of permutations
+* factorial
+* logical operators: == >= > <= < !=
+* dynamic constant menu update
+  * menus can now have a sub menu structure of an infinite depth
+  * new data file format
+      
+0.3.7.99
+--------
+* can have up to 10 different graph tabs 
+* tracing a graph works now 
+* fixed a bug in the conversion strings
+    
+0.3.4.99
+--------
+* dynamic constant and conversion menus
+  * data is read in from files: constants.dat and units.dat

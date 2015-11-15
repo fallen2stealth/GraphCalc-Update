@@ -1,0 +1,5 @@
+#Volume of Cone
+[Tab=output]
+[PromptVal=radius]
+[PromptVal=height]
+(1/3)*pi*radius^2*height

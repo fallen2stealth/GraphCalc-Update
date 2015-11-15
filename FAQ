@@ -1,0 +1,30 @@
+GRAPHCALC'S FREQUENTLY ASKED QUESTIONS
+======================================
+
+Q: I just checked out the source, why won't it compile?
+A: Excellent question.  You would think it should.  The program was
+   originally developed under Windows98.  It compiles there just fine.
+   The problem comes when trying to compile under W2K/ME/XP.  We are
+   not very interested in maintaining the windows port anymore, but if
+   you'd like to help diagnose the problem, feel free.
+
+Q: Where is the linux version?
+A: Forthcoming.  Frankly, we have no Linux development experience, but
+   we figure that the friendly people at SourceForge might lend us a
+   hand.  If you have any suggestions for where to start, what libraries
+   to use, or just want to flame us, please drop a note to
+   authors@graphcalc.com
+
+Q: Why didn't you <X>?  You should have <Y>.
+A: We're new to this.  Please be kind.  Please feel free to make
+   constructive comments.
+
+Q: Your CVS Repository is all messed up.
+A: That's not a question.  But yes, it is.  I'm sorry, I refer you to
+   our previous answer.
+
+Q: But I want a linux version now!
+A: Again, questions would be nicer.  If you're desperate, you should
+   check out wine.  It executes the expression and 2d graphings
+   capabilities very well.  The 3D OpenGL part is somewhere between
+   fluky and non-functional under wine.  Good luck.

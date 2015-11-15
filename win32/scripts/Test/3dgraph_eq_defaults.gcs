@@ -1,0 +1,7 @@
+#3D Equation Defaults
+[3DEqWireMode=eq:CW]
+[3DEqShadeMode=eq:xypos]
+[3DEqColorXminYmax=eq:red]
+[3DEqColorXminYmin=eq:green]
+[3DEqColorXmaxYmax=eq:blue]
+[3DEqColorXmaxYmin=eq:yellow]

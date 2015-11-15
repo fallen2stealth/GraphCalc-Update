@@ -1,0 +1,128 @@
+//
+// GRPHCALC.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 223, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+#ifdef GRAPHCALC_LIGHT
+CAPTION "About GraphCalc Light"
+#else
+CAPTION "About GraphCalc"
+#endif
+
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,29,21,20
+#ifdef GRAPHCALC_LIGHT
+    LTEXT           "Version 1.0",IDC_STATIC,40,18,87,8,SS_NOPREFIX
+#else
+    LTEXT           "Version 4.0",IDC_STATIC,40,18,87,8,SS_NOPREFIX
+#endif
+    LTEXT           "Copyright 1999 - 2003",IDC_STATIC,39,27,72,10
+    DEFPUSHBUTTON   "OK",IDOK,83,82,57,15,WS_GROUP
+    LTEXT           "http://www.graphcalc.com",IDC_WEBGC,40,58,119,8
+#ifdef GRAPHCALC_LIGHT
+    GROUPBOX        "GraphCalc Light",IDC_STATIC,7,7,208,108
+#else
+    GROUPBOX        "GraphCalc",IDC_STATIC,7,7,208,71
+#endif
+    LTEXT           "http://www.graphcalc.com/support.shtml",IDC_SUPPORT,40,
+                    66,135,8
+    LTEXT           "Brendan Fields",IDC_STATIC,40,38,52,8
+    LTEXT           "Mike Arrison",IDC_STATIC,40,46,45,8
+END
+
+IDD_GRPHCALC_DIALOG DIALOGEX 0, 0, 420, 262
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+#ifdef GRAPHCALC_LIGHT
+CAPTION "GraphCalc Light"
+#else
+CAPTION "GraphCalc"
+#endif
+MENU IDR_MENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Enter",IDC_ENTER,393,240,24,14,BS_FLAT | NOT WS_VISIBLE,
+                    WS_EX_TRANSPARENT
+    COMBOBOX        IDC_FORMULA,262,130,155,93,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+#ifdef UNITS_CONSTANTS_SUPPORT
+
+IDD_INSERT_CONSTANT DIALOG DISCARDABLE  0, 0, 140, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Insert Constant"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_CATEGORY,45,43,79,78,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_NAME,45,60,79,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE,45,78,79,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,104,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,83,104,50,14
+    LTEXT           "Name ",IDC_STATIC,23,61,22,8
+    LTEXT           "Value ",IDC_STATIC,24,81,21,8
+    LTEXT           "Category ",IDC_STATIC,14,46,31,8
+    CTEXT           "Choose a category for the new constant or enter a new one in the category box",
+                    IDC_STATIC,7,16,117,26
+    GROUPBOX        "New Constant",IDC_STATIC,7,7,126,90
+END
+
+IDD_INSERT_CONVERSION DIALOG DISCARDABLE  0, 0, 151, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Insert Unit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,100,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,94,100,50,14
+    COMBOBOX        IDC_CATEGORY,46,16,92,78,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_NAME,46,59,92,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE,46,75,92,14,ES_AUTOHSCROLL
+    LTEXT           "Name ",IDC_STATIC,24,63,22,8
+    CONTROL         "Value ",IDC_VALUE_LABEL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,25,79,21,8
+    LTEXT           "Category ",IDC_STATIC,15,18,31,8
+    COMBOBOX        IDC_UNITTYPE,46,30,92,78,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Unit Type ",IDC_STATIC,12,34,34,8
+    LTEXT           "Base Unit ",IDC_STATIC,12,49,34,8
+    EDITTEXT        IDC_BASEUNIT,46,44,92,14,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "New Unit",IDC_STATIC,7,7,137,88
+END
+
+IDD_NEW_UNIT_CATEGORY DIALOG DISCARDABLE  0, 0, 175, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Unit Category"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,106,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,118,106,50,14
+    EDITTEXT        IDC_CATEGORY,88,9,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TYPE_ONE,88,24,77,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TYPE_TWO,88,54,77,14,ES_AUTOHSCROLL
+    LTEXT           "Category Name ",IDC_STATIC,36,12,52,8
+    LTEXT           "First Unit Type ",IDC_STATIC,40,27,48,8
+    LTEXT           "Second Unit Type ",IDC_STATIC,28,57,60,8
+    EDITTEXT        IDC_BASE_ONE,88,39,77,14,ES_AUTOHSCROLL
+    LTEXT           "First Type Base Unit ",IDC_STATIC,22,42,66,8
+    EDITTEXT        IDC_BASE_TWO,88,69,77,14,ES_AUTOHSCROLL
+    LTEXT           "Second Type Base Unit ",IDC_STATIC,10,73,78,8
+    GROUPBOX        "New Unit Category",IDC_STATIC,7,2,161,101
+    EDITTEXT        IDC_BASE_CONVERSION,88,84,77,14,ES_AUTOHSCROLL
+    LTEXT           "1 base two = ? base one ",IDC_STATIC,7,88,81,8
+END
+
+#endif // UNITS_CONSTANTS_SUPPORT
+
+/////////////////////////////////////////////////////////////////////////////

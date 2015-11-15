@@ -1,0 +1,6 @@
+#Volume of Rectangluar Prism
+[Tab=output]
+[PromptVal=a]
+[PromptVal=b]
+[PromptVal=c]
+a*b*c

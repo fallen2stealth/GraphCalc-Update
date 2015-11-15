@@ -1,0 +1,5 @@
+#Area of Triangle
+[Tab=output]
+[PromptVal=base]
+[PromptVal=height]
+(1/2)(base*height)

@@ -1,0 +1,5 @@
+#Volume of Pyramid
+[Tab=output]
+[PromptVal=base:Please enter the area of the base]
+[PromptVal=height]
+(1/3)*base*height

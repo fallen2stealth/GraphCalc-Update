@@ -1,0 +1,6 @@
+#Surface Area of Prism
+[Tab=output]
+[PromptVal=bp:Perimeter of shape b]
+[PromptVal=ba:Area of shape b]
+[PromptVal=l:Enter the length]
+(bp*l)+2*ba

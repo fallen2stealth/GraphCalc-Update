@@ -1,0 +1,6 @@
+#Area of Trapezoid
+[Tab=output]
+[PromptVal=base1]
+[PromptVal=base2]
+[PromptVal=height]
+(height/2)*(base1+base2)

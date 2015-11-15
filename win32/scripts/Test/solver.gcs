@@ -1,0 +1,10 @@
+#Equation Solver
+[Comment=****** Equation Solver Tests ******]
+[Solve=abs(x)-2 = x^2:1:x]
+[Solve=x^2+3=(sin x)*x:1:x]
+[Solve=cos(x) = sin(x)/2:0:x]
+[Solve=x^3 = x*3+3:0]
+[Solve=x = sin(x) + x + .25:0]
+[Solve=sqrt(x^3)+4*x^6:0]
+[Solve=arctan(x) = cos(x):0]
+[Solve=sin(b):5:b]

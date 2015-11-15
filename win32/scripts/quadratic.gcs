@@ -1,0 +1,7 @@
+#Quadratic Equation
+[Tab=output]
+[PromptVal=a]
+[PromptVal=b]
+[PromptVal=c]
+(-b+sqrt(b^2-4*a*c))/(2*a)
+(-b-sqrt(b^2-4*a*c))/(2*a)

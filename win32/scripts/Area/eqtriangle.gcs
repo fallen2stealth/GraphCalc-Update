@@ -1,0 +1,4 @@
+#Area of Equilateral Triangle
+[Tab=output]
+[PromptVal=a]
+(sqrt(3)/4)(a^2)

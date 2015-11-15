@@ -1,0 +1,6 @@
+#Volume of Ellipsoid
+[Tab=output]
+[PromptVal=r1]
+[PromptVal=r2]
+[PromptVal=r3]
+(4/3)*pi*r1*r2*r3

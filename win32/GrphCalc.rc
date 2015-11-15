@@ -1,0 +1,2481 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\GrphCalc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\idr_main.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_2DGRAPH DIALOGEX 0, 0, 386, 239
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Eq1",IDC_PARAMETRIC_EQ_1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,22,17,28,10
+    EDITTEXT        IDC_EQ_X1,74,7,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EQ_Y1,74,22,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Eq2",IDC_PARAMETRIC_EQ_2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,22,46,28,10
+    EDITTEXT        IDC_EQ_X2,74,37,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EQ_Y2,73,52,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Eq3",IDC_PARAMETRIC_EQ_3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,22,75,28,10
+    EDITTEXT        IDC_EQ_X3,74,67,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EQ_Y3,74,82,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Eq4",IDC_PARAMETRIC_EQ_4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,22,104,28,10
+    EDITTEXT        IDC_EQ_X4,74,97,96,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EQ_Y4,74,112,96,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Eq5",IDC_PARAMETRIC_EQ_5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,22,133,28,10
+    EDITTEXT        IDC_EQ_X5,74,127,96,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EQ_Y5,74,142,96,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    23,14,8
+    EDITTEXT        IDC_EQ_1,251,22,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    34,14,8
+    EDITTEXT        IDC_EQ_2,251,34,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    46,14,8
+    EDITTEXT        IDC_EQ_3,251,46,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    58,14,8
+    EDITTEXT        IDC_EQ_4,251,58,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    70,14,8
+    EDITTEXT        IDC_EQ_5,251,70,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    81,14,8
+    EDITTEXT        IDC_EQ_6,251,82,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    94,14,8
+    EDITTEXT        IDC_EQ_7,251,94,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    105,14,8
+    EDITTEXT        IDC_EQ_8,251,106,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,237,
+                    118,14,8
+    EDITTEXT        IDC_EQ_9,251,118,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EQ_ON_10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    237,130,14,8
+    EDITTEXT        IDC_EQ_10,251,130,128,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "Cursor Position",IDC_CURSOR_POSITION,237,142,142,40
+    EDITTEXT        IDC_CURSOR_X,251,152,46,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_CURSOR_Y,251,167,46,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_CURSOR_THETA,327,152,46,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_CURSOR_R,327,167,46,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Trace",IDC_TRACE,237,185,142,47
+    EDITTEXT        IDC_TRACE_X,251,196,46,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TRACE_DYDX,251,214,46,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TRACE_Y,251,204,46,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TRACE_THETA,305,193,46,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TRACE_R,305,203,46,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    EDITTEXT        IDC_TRACE_DRDTHETA,305,214,46,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Area",IDC_AREA,153,202,70,28
+    EDITTEXT        IDC_AREA_VALUE,165,214,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Distance",IDC_DISTANCE,153,161,70,28
+    EDITTEXT        IDC_DISTANCE_VALUE,165,174,40,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER | NOT WS_TABSTOP
+    LTEXT           "x(t)",IDC_X_EQLABEL_1,59,8,10,8
+    LTEXT           "x(t)",IDC_X_EQLABEL_2,59,43,8,8
+    LTEXT           "x(t)",IDC_X_EQLABEL_3,59,69,8,8
+    LTEXT           "x(t)",IDC_X_EQLABEL_4,59,100,8,8
+    LTEXT           "x(t)",IDC_X_EQLABEL_5,59,127,8,8
+    LTEXT           "y(t)",IDC_Y_EQLABEL_1,57,24,10,8
+    LTEXT           "y(t)",IDC_Y_EQLABEL_2,57,53,10,8
+    LTEXT           "y(t)",IDC_Y_EQLABEL_3,59,87,10,8
+    LTEXT           "y(t)",IDC_Y_EQLABEL_4,59,115,10,8
+    LTEXT           "y(t)",IDC_Y_EQLABEL_5,59,143,10,8
+END
+
+IDD_2DGRAPH_OPTIONS_0 DIALOG DISCARDABLE  0, 0, 266, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Equations"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "y1",IDC_ON_Y1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,9,
+                    23,10
+    EDITTEXT        IDC_EQY1,38,8,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y1,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,9,26,13
+    CONTROL         "y2",IDC_ON_Y2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    28,23,10
+    EDITTEXT        IDC_EQY2,38,27,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y2,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,28,26,13
+    CONTROL         "y3",IDC_ON_Y3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    48,23,10
+    EDITTEXT        IDC_EQY3,38,46,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y3,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,47,26,13
+    CONTROL         "y4",IDC_ON_Y4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    66,23,10
+    EDITTEXT        IDC_EQY4,38,65,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y4,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,66,26,13
+    CONTROL         "y5",IDC_ON_Y5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    86,23,10
+    EDITTEXT        IDC_EQY5,38,84,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y5,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,84,26,13
+    CONTROL         "y6",IDC_ON_Y6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    105,23,10
+    EDITTEXT        IDC_EQY6,38,103,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y6,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,103,26,13
+    CONTROL         "y7",IDC_ON_Y7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    124,23,10
+    EDITTEXT        IDC_EQY7,38,122,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y7,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,122,26,13
+    CONTROL         "y8",IDC_ON_Y8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    143,23,10
+    EDITTEXT        IDC_EQY8,38,141,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y8,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,141,26,13
+    CONTROL         "y9",IDC_ON_Y9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    161,23,10
+    EDITTEXT        IDC_EQY9,38,160,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y9,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,161,26,13
+    CONTROL         "y10",IDC_ON_Y10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    180,27,10
+    EDITTEXT        IDC_EQY10,38,179,191,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_Y10,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,233,180,26,13
+END
+
+IDD_2DGRAPH_OPTIONS_1 DIALOG DISCARDABLE  0, 0, 260, 202
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Range && Precision"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_XMIN,36,17,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,36,34,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XINT,36,51,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMIN,36,68,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMAX,36,85,91,12,ES_AUTOHSCROLL
+    LTEXT           "x min",IDC_STATIC,12,19,17,8
+    EDITTEXT        IDC_YINT,36,102,91,12,ES_AUTOHSCROLL
+    LTEXT           "x max",IDC_STATIC,12,36,19,8
+    LTEXT           "x scl",IDC_STATIC,12,53,15,8
+    LTEXT           "y min",IDC_STATIC,12,70,17,8
+    LTEXT           "y max",IDC_STATIC,12,87,19,8
+    LTEXT           "y scl",IDC_STATIC,12,104,15,8
+    GROUPBOX        "Range",IDC_STATIC,7,7,246,114
+    EDITTEXT        IDC_AREAPREC,16,135,14,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin1",IDC_AREAPREC_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,30,135,11,12
+    LTEXT           "Decimal Places",IDC_STATIC,46,137,52,10
+    CONTROL         "Slider2",IDC_LINE_RESOLUTION,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,115,134,131,15
+    GROUPBOX        "Line Resolution",IDC_STATIC,101,125,152,70
+    CTEXT           "",IDC_LINE_TRACK,116,150,126,8
+    GROUPBOX        "Area Precision",IDC_STATIC,7,125,93,70
+    LTEXT           "This is the region you would like the graph window to view.  It also defines the points plotted.  The scale parameters define how often tick marks are made on the axes",
+                    IDC_STATIC,137,16,109,98
+    LTEXT           "When using the find area function, this is the number of decimal places to which your answer is correct",
+                    IDC_STATIC,14,150,77,41
+    LTEXT           "This is the percent of the pixels at which points are plotted.  Decreasing this value can drastically increase rendering speed",
+                    IDC_STATIC,112,162,132,27
+END
+
+IDD_2DGRAPH_OPTIONS_2 DIALOG DISCARDABLE  0, 0, 272, 202
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Display"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_COLOR_GRID,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,43,111,26,11
+    CONTROL         "",IDC_COLOR_COORDS,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,86,20,26,11
+    CONTROL         "",IDC_COLOR_TEXT,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,86,56,26,11
+    CONTROL         "",IDC_COLOR_AREA,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,86,82,26,11
+    CONTROL         "Labels",IDC_LABELS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,32,37,10
+    CONTROL         "On",IDC_AXIS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,207,
+                    127,25,10
+    CONTROL         "On",IDC_GRID,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,
+                    112,25,10
+    CONTROL         "Coordinates",IDC_COORDS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,20,53,10
+    CONTROL         "Cursor Position",IDC_CURSOR_POS,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,14,44,62,10
+    EDITTEXT        IDC_ZOOM_DEC_PREC,132,59,75,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_WIDTH_SPIN,"msctls_updown32",UDS_ALIGNLEFT | 
+                    UDS_ARROWKEYS,192,26,10,12
+    CONTROL         "Slider2",IDC_ZOOM,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,10,177,214,14
+    CONTROL         "",IDC_COLOR_BACKGROUND,"Button",BS_OWNERDRAW | 
+                    BS_CENTER | BS_VCENTER | WS_TABSTOP,86,69,26,11
+    CONTROL         "",IDC_COLOR_AXIS,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,234,127,26,11
+    EDITTEXT        IDC_WIDTH,180,26,14,12,ES_RIGHT | ES_NUMBER
+    GROUPBOX        "Misc. Display Components",IDC_STATIC,7,7,114,91
+    GROUPBOX        "Plotting Style",IDC_STATIC,125,7,88,35
+    GROUPBOX        "Zoom Factor",IDC_STATIC,7,168,258,27
+    CTEXT           "",IDC_ZOOMTRACK,226,180,32,8
+    GROUPBOX        "Zoom Decimal Precision",IDC_STATIC,125,47,88,33
+    LTEXT           "Background Color",IDC_STATIC,14,71,58,8
+    LTEXT           "Other Text on Graph",IDC_STATIC,14,57,65,10
+    LTEXT           "Area",IDC_STATIC,14,83,16,8
+    LTEXT           "Size",IDC_SIZET,164,28,14,8
+    CONTROL         "Line",IDC_LINE_STYLE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,131,28,29,10
+    CONTROL         "Dot",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,131,17,27,
+                    10
+    GROUPBOX        "Grid Options",IDC_STATIC,7,101,184,63,BS_LEFT
+    EDITTEXT        IDC_AXIS_SIZE,234,142,14,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_AXIS_SIZE_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,248,142,11,12
+    EDITTEXT        IDC_GRID_SIZE,43,146,14,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_GRID_SIZE_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,57,146,11,12
+    CONTROL         "Fixed grid size when zooming",IDC_FIXED_GRID,"Button",
+                    BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,13,124,62,19
+    LTEXT           "Size",IDC_STATIC,13,148,14,8
+    GROUPBOX        "Axis",IDC_STATIC,199,114,66,50
+    LTEXT           "Size",IDC_STATIC,208,144,14,8
+    GROUPBOX        "Font Size",IDC_STATIC,216,7,48,103
+    COMBOBOX        IDC_FONT_SIZE,223,18,31,89,CBS_SIMPLE | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Display grid labels on x axis",IDC_GRID_LABEL_ON,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,86,129,99,10
+    LTEXT           "every",IDC_STATIC,99,141,18,8
+    EDITTEXT        IDC_GRID_LABEL_INTERVAL,120,140,26,12,ES_AUTOHSCROLL
+    LTEXT           "grid line(s)",IDC_STATIC,149,141,32,8
+END
+
+IDD_MODE DIALOG DISCARDABLE  0, 0, 188, 174
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mode"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,32,153,49,14
+    PUSHBUTTON      "Cancel",IDCANCEL,98,153,49,14
+    GROUPBOX        "Units",IDC_STATIC,105,7,73,33
+    CONTROL         "Radian",IDC_UNITS,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,111,16,39,10
+    CONTROL         "Degree",IDC_LINE_STYLE,"Button",BS_AUTORADIOBUTTON,111,
+                    27,39,10
+    EDITTEXT        IDC_DECIMAL_PLACES,66,116,15,12,ES_NUMBER
+    GROUPBOX        "Base",IDC_STATIC,105,120,73,28
+    CONTROL         "Float",IDC_FLOAT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    32,117,31,10
+    CONTROL         "Spin1",IDC_DECIMAL_PLACES_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,80,116,11,12
+    GROUPBOX        "Scientific",IDC_STATIC,105,44,73,33
+    CONTROL         "Normal",IDC_SCIENTIFIC,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,111,55,38,10
+    CONTROL         "Scientific",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,111,
+                    65,45,10
+    EDITTEXT        IDC_BASE,111,131,15,12,ES_NUMBER
+    CONTROL         "Spin1",IDC_BASE_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    125,131,11,12
+    GROUPBOX        "International Mode",IDC_STATIC,105,81,73,34
+    CONTROL         "US",IDC_INTLMODE,"Button",BS_AUTORADIOBUTTON | WS_GROUP | 
+                    WS_TABSTOP,113,91,47,10
+    CONTROL         "European",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,113,
+                    102,47,10
+    GROUPBOX        "Output Format",IDC_STATIC,7,7,93,142
+    CONTROL         "Number Separator",IDC_NUM_SEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,19,73,10
+    CONTROL         "Decimal Separator",IDC_DEC_SEP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,62,74,10
+    LTEXT           "Character",IDC_NUMC,29,32,34,8
+    EDITTEXT        IDC_NUM_CHAR,66,31,10,12,ES_AUTOHSCROLL
+    LTEXT           "Frequency",IDC_NUMF,29,46,34,8
+    COMBOBOX        IDC_NUM_FREQ,66,44,25,163,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Character",IDC_DECC,29,76,34,8
+    EDITTEXT        IDC_DEC_CHAR,66,75,10,12,ES_AUTOHSCROLL
+    LTEXT           "Frequency",IDC_DECF,29,91,34,8
+    COMBOBOX        IDC_DEC_FREQ,66,90,25,161,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Decimal Places",IDC_STATIC,15,104,58,8
+    CTEXT           "",IDC_SAMPLE,12,134,83,10,SS_SUNKEN
+END
+
+IDD_OUTPUT DIALOG DISCARDABLE  0, 0, 246, 239
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Output"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_OUTPUT,"RICHEDIT",ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_NOHIDESEL | ES_READONLY | WS_BORDER | WS_VSCROLL,6,5,
+                    235,229
+END
+
+IDD_RENAME_GRAPH DIALOG DISCARDABLE  0, 0, 119, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rename Graph Tab"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_NAME,66,7,46,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,26,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,62,26,50,14
+    LTEXT           "Graph Tab Name",IDC_STATIC,7,9,56,8
+END
+
+IDD_2DGRAPH_INTEGRATE DIALOG DISCARDABLE  0, 0, 198, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find Area"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,43,122,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,122,50,14
+    EDITTEXT        IDC_XMIN,41,15,50,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,41,31,50,14,ES_AUTOHSCROLL
+    LTEXT           "X max:",IDC_STATIC,15,33,22,8
+    LTEXT           "X min:",IDC_STATIC,15,17,20,8
+    LTEXT           "First Equation #",IDC_STATIC,22,66,50,8
+    COMBOBOX        IDC_EQUATION,75,64,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Second Equation #",IDC_STATIC,12,96,62,8
+    COMBOBOX        IDC_EQUATION2,75,94,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Range",IDC_STATIC,7,7,184,42
+    CONTROL         "Area Between Equations",IDC_BETWEEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,75,81,94,10
+    GROUPBOX        "Equations",IDC_STATIC,7,53,184,63
+    EDITTEXT        IDC_EQS,107,65,80,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EQS2,107,95,80,12,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "Absolute Area",IDC_ABSOLUTE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,107,26,60,10
+END
+
+IDD_CATALOG DIALOG DISCARDABLE  0, 0, 100, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Operator Catalog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Insert",IDOK,7,113,37,14
+    PUSHBUTTON      "Cancel",IDCANCEL,56,113,37,14
+    LISTBOX         IDC_OPERATOR,7,7,86,99,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_2DGRAPH_EVALUATE DIALOG DISCARDABLE  0, 0, 172, 93
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Evaluate"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,60,72,50,14
+    COMBOBOX        IDC_EQ,47,14,28,88,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_X,47,30,112,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y,47,48,112,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Equation",IDC_STATIC,14,16,29,8
+    LTEXT           "x value",IDC_X_TEXT,14,33,24,8
+    LTEXT           "y value",IDC_Y_TEXT,14,50,24,8
+    GROUPBOX        "Evaluate",IDC_STATIC,7,7,158,60
+    EDITTEXT        IDC_EQS,79,14,80,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_2DGRAPH_TANGENT DIALOG DISCARDABLE  0, 0, 169, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tangent"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,50,50,14
+    COMBOBOX        IDC_EQ,47,14,26,88,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_X,47,30,110,14,ES_AUTOHSCROLL
+    LTEXT           "Equation",-1,14,16,29,8
+    LTEXT           "X value",IDC_X_TEXT,14,33,25,8
+    GROUPBOX        "Tangent",-1,7,7,155,41
+    PUSHBUTTON      "Cancel",IDCANCEL,112,50,50,14
+    EDITTEXT        IDC_EQS,77,14,80,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_2DGRAPH_DISTANCE DIALOG DISCARDABLE  0, 0, 204, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Distance Between Two Points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,147,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,147,24,50,14
+    EDITTEXT        IDC_XMIN,57,18,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,57,33,40,14,ES_AUTOHSCROLL
+    LTEXT           "X max",IDC_XMAX_TEXT,14,35,40,8
+    LTEXT           "X min",IDC_XMIN_TEXT,13,20,40,8
+    LTEXT           "First Equation #",IDC_STATIC,22,66,50,8
+    COMBOBOX        IDC_EQUATION,75,64,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Second Equation #",IDC_STATIC,12,96,62,8
+    COMBOBOX        IDC_EQUATION2,75,94,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "X Coordinates of Line",IDC_STATIC,7,7,97,44
+    CONTROL         "Distance between two equations",IDC_BETWEEN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,75,81,119,10
+    GROUPBOX        "Equations",IDC_STATIC,7,53,190,62
+    EDITTEXT        IDC_EQS,107,65,83,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EQS2,107,95,83,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+IDD_PRINT DIALOG DISCARDABLE  0, 0, 272, 206
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Setup",IDC_SETUP,217,14,42,14
+    CONTROL         "Center Graph on Page",IDC_CENTER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,49,93,10
+    CONTROL         "Print Equations",IDC_EQUATIONS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,62,80,10
+    CONTROL         "Title:",IDC_TITLE_ON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,13,75,28,10
+    EDITTEXT        IDC_TITLE,42,74,103,12,ES_AUTOHSCROLL
+    CONTROL         "Full Page",IDC_PAGESIZE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,19,101,45,10
+    CONTROL         "Automatic Sizing",IDC_AUTOSIZE,"Button",
+                    BS_AUTORADIOBUTTON,19,111,68,10
+    CONTROL         "Specify Size",IDC_SPECIFY,"Button",BS_AUTORADIOBUTTON,
+                    19,121,55,10
+    EDITTEXT        IDC_WIDTH,59,136,34,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_WIDTH_UNITS,97,136,38,58,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_HEIGHT,59,155,34,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_HEIGHT_UNITS,97,155,38,58,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,155,185,50,14
+    RTEXT           "Width:",IDC_STATIC_WIDTH,27,139,27,8
+    PUSHBUTTON      "Cancel",IDCANCEL,213,185,50,14
+    CTEXT           "",IDC_PRINTER,40,18,172,8
+    GROUPBOX        "Printer Options",IDC_STATIC,7,7,258,26,WS_TABSTOP
+    GROUPBOX        "Print Format",IDC_STATIC,7,38,256,143
+    LTEXT           "Printer:",IDC_STATIC,13,18,35,8
+    RTEXT           "Height:",IDC_STATIC_HEIGHT,27,156,27,8
+    GROUPBOX        "Size",IDC_STATIC,13,89,133,84
+    GROUPBOX        "Preview",IDC_PREVIEW_FRAME,153,47,103,127
+END
+
+IDD_2DGRAPH_OPTIONS_POLAR DIALOG DISCARDABLE  0, 0, 261, 209
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Range && Precision"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Theta Range",IDC_STATIC,7,7,126,128
+    LTEXT           "Theta min",IDC_STATIC,12,21,32,8
+    EDITTEXT        IDC_THETAMIN,50,19,76,12,ES_AUTOHSCROLL
+    LTEXT           "Theta max",IDC_STATIC,12,37,34,8
+    EDITTEXT        IDC_THETAMAX,50,35,76,12,ES_AUTOHSCROLL
+    LTEXT           "Theta step",IDC_STATIC,12,52,35,8
+    EDITTEXT        IDC_THETASTEP,50,51,76,12,ES_AUTOHSCROLL
+    LTEXT           "Spacing",IDC_STATIC,145,20,27,8
+    EDITTEXT        IDC_GRIDSPACING,177,18,73,12,ES_AUTOHSCROLL
+    LTEXT           "Angle",IDC_STATIC,145,36,19,8
+    EDITTEXT        IDC_GRIDANGLE,177,34,73,12,ES_AUTOHSCROLL
+    GROUPBOX        "Grid",IDC_STATIC,139,7,115,128
+    EDITTEXT        IDC_XMIN,42,150,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,42,166,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMIN,173,150,73,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMAX,173,166,73,12,ES_AUTOHSCROLL
+    LTEXT           "x min",IDC_STATIC,15,153,17,8
+    LTEXT           "x max",IDC_STATIC,15,168,19,8
+    LTEXT           "y min",IDC_STATIC,145,153,17,8
+    LTEXT           "y max",IDC_STATIC,145,169,19,8
+    GROUPBOX        "View Range",IDC_STATIC,7,138,247,64
+    LTEXT           "Theta min, max, step: This is the range over which you want to graph a polar function.  To go one full time around the circle, graph from 0 to 2*pi.  The step is the amount between successive points.  A typical step setting would be about 0.05 radians.",
+                    IDC_STATIC,13,67,114,63
+    LTEXT           "This is the spacing in units from the origin and angle from horizontal at which you would like grid lines plotted.  Typical settings are 1 and pi/6.",
+                    IDC_STATIC,146,51,100,60
+    CTEXT           "This is the region you would like the graph window to view.  This does not have any affect on the points that are plotted.",
+                    IDC_STATIC,27,181,215,17
+END
+
+IDD_COMMANDS DIALOG DISCARDABLE  0, 0, 172, 197
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Commands"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Insert",IDOK,30,176,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,92,176,50,14
+    LISTBOX         IDC_COMMANDS,7,7,158,161,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_OPTIONS DIALOG DISCARDABLE  0, 0, 179, 239
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,36,218,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,92,218,50,14
+    GROUPBOX        "On Program Exit",IDC_STATIC,7,57,165,73
+    CONTROL         "Save Settings",IDC_SAVE_SETTINGS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,71,60,10
+    EDITTEXT        IDC_SETTINGS_FILE,28,82,92,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_SETTINGS_BROWSE,124,82,41,14
+    CONTROL         "Save Expression History",IDC_SAVE_EXPR_HISTORY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,103,92,10
+    CONTROL         "Save Output Window",IDC_SAVE_OUTPUT_HISTORY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,116,84,10
+    GROUPBOX        "Misc",IDC_STATIC,7,135,165,75
+    CONTROL         "Tooltips",IDC_TOOLTIPS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,145,41,10
+    CONTROL         "Sound Effects",IDC_SOUNDFX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,158,61,10
+    CONTROL         "Detailed Output",IDC_DETAILED_OUTPUT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,171,65,10
+    GROUPBOX        "Startup Script",IDC_STARTUP_SCRIPT,7,7,165,44
+    CONTROL         "Enabled",IDC_STARTUP_SCRIPT_ENABLED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,19,42,10
+    EDITTEXT        IDC_SCRIPT_FILE,28,31,92,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_SCRIPT_BROWSE,124,31,41,14
+    CONTROL         "Display Command Error Messages",IDC_COMMAND_ERRORS,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,184,123,10
+    CONTROL         "Display Script Progress Dialog",
+                    IDC_DISP_SCRIPT_PROGRESS_DLG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,197,110,10
+END
+
+CG_IDD_PROGRESS DIALOG DISCARDABLE  0, 0, 186, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,67,58,50,14
+    CONTROL         "Progress1",CG_IDC_PROGDLG_PROGRESS,"msctls_progress32",
+                    WS_BORDER,15,34,154,13
+    LTEXT           " 0 %",CG_IDC_PROGDLG_PERCENT,85,23,18,8
+    LTEXT           "",CG_IDC_PROGDLG_STATUS,13,7,158,8
+END
+
+IDD_2DGRAPH_TABLEVIEW DIALOG DISCARDABLE  0, 0, 318, 217
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "2D Graph Table"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_MIN_VAL,51,19,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_VAL,51,35,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_STEP,148,19,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DECIMAL_PLACES,148,34,40,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Update Table",IDC_UPDATE,196,33,50,14,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE
+    PUSHBUTTON      "Close",IDCANCEL,253,18,50,14
+    CONTROL         "List1",IDC_TABLE,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOLABELWRAP | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,55,304,155
+    GROUPBOX        "Settings",IDC_STATIC,7,7,304,46
+    LTEXT           "x min:",IDC_MIN_TEXT,14,20,34,8
+    LTEXT           "x max:",IDC_MAX_TEXT,14,36,36,8
+    LTEXT           "step:",IDC_STATIC,96,20,16,8
+    LTEXT           "decimal places:",IDC_STATIC,96,35,50,8
+    PUSHBUTTON      "Help",IDC_HELP_BUTTON,253,33,50,14
+    PUSHBUTTON      "Export Table",IDC_EXPORT,196,18,50,14
+END
+
+IDD_3DGRAPH DIALOG DISCARDABLE  0, 0, 246, 239
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | WS_CAPTION
+CAPTION "3D Graph"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_3DGRAPH_RANGE_WIRE DIALOG DISCARDABLE  0, 0, 203, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Range && Wire"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Range",IDC_STATIC,7,7,189,62
+    EDITTEXT        IDC_XMIN,36,18,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,36,34,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMIN,128,19,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMAX,128,35,60,12,ES_AUTOHSCROLL
+    LTEXT           "x min",IDC_XR_MIN_TEXT,14,18,17,8
+    LTEXT           "x max",IDC_XR_MAX_TEXT,14,34,19,8
+    LTEXT           "y min",IDC_YT_MIN_TEXT,106,22,17,8
+    LTEXT           "y max",IDC_YT_MAX_TEXT,106,38,19,8
+    LTEXT           "x intervals",IDC_XR_INT_TEXT,14,52,32,8
+    LTEXT           "y intervals",IDC_YT_INT_TEXT,106,54,32,8
+    EDITTEXT        IDC_X_INTERVAL,51,49,31,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin1",IDC_X_INTERVAL_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,81,49,11,12
+    EDITTEXT        IDC_Y_INTERVAL,144,52,31,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin1",IDC_Y_INTERVAL_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,175,52,11,12
+    LTEXT           "Wire width",IDC_STATIC,13,94,34,8
+    EDITTEXT        IDC_WIRE_WIDTH,62,91,14,12,ES_RIGHT | ES_NUMBER
+    CONTROL         "Spin1",IDC_WIRE_WIDTH_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,76,91,11,12
+    LTEXT           "Plot wire every",IDC_STATIC,14,114,47,8
+    EDITTEXT        IDC_WIRE_RES,62,113,21,12,ES_AUTOHSCROLL
+    LTEXT           "x/y intervals",IDC_XYRT_TEXT,100,111,29,15
+    GROUPBOX        "Wire Options",IDC_STATIC,7,76,125,60
+    GROUPBOX        "Misc",IDC_STATIC,139,76,57,60
+    CONTROL         "",IDC_BG_COLOR,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    WS_TABSTOP,152,105,37,24
+    CTEXT           "Background Color",IDC_STATIC,150,86,39,18
+    CONTROL         "Spin1",IDC_WIRE_SPACE_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,83,113,11,12
+END
+
+IDD_3DGRAPH_RENDER DIALOG DISCARDABLE  0, 0, 261, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Render Modes"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_XMIN_YMAX_COLOR,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,131,17,27,12
+    CONTROL         "",IDC_XMAX_YMAX_COLOR,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,223,17,27,12
+    CONTROL         "",IDC_XMIN_YMIN_COLOR,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,131,98,27,12
+    CONTROL         "",IDC_XMAX_YMIN_COLOR,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,223,98,27,12
+    DEFPUSHBUTTON   "OK",IDOK,106,119,49,14
+    CONTROL         "Wireframe",IDC_RENDER_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,15,18,48,10
+    GROUPBOX        "Render Mode",IDC_STATIC,7,7,112,53
+    GROUPBOX        "Shading Model",IDC_STATIC,7,72,112,41
+    GROUPBOX        "Surface Shading Colors",IDC_STATIC,125,7,132,107
+    CONTROL         "Surface",IDC_RENDER_SURFCE,"Button",BS_AUTORADIOBUTTON,
+                    15,31,41,10
+    CONTROL         "Surface with wires",IDC_RENDER_SURFACE_WIRES,"Button",
+                    BS_AUTORADIOBUTTON | BS_TOP | BS_MULTILINE,15,44,92,12
+    CONTROL         "x-y position",IDC_SHADING_MODEL,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,15,85,51,10
+    CONTROL         "Elevation",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,15,96,
+                    45,10
+END
+
+IDD_3DGRAPH_EQUATIONS DIALOG DISCARDABLE  0, 0, 207, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Equations"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "z1(x,y) = ",IDC_3D_EQ_ON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,26,37,10
+    EDITTEXT        IDC_3D_EQ,58,23,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_EQ_SHADING,"Button",BS_OWNERDRAW | WS_TABSTOP,176,
+                    21,21,14
+    CONTROL         "z2(x,y) = ",IDC_3D_EQ_ON2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,45,37,10
+    EDITTEXT        IDC_3D_EQ2,58,43,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_EQ_SHADING2,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    176,42,21,14
+    CONTROL         "z3(x,y) = ",IDC_3D_EQ_ON3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,64,37,10
+    EDITTEXT        IDC_3D_EQ3,58,63,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_EQ_SHADING3,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    176,61,21,14
+    CONTROL         "z4(x,y) = ",IDC_3D_EQ_ON4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,83,37,10
+    EDITTEXT        IDC_3D_EQ4,58,83,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_EQ_SHADING4,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    176,82,21,14
+    CONTROL         "z5(x,y) = ",IDC_3D_EQ_ON5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,104,37,10
+    EDITTEXT        IDC_3D_EQ5,58,103,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_EQ_SHADING5,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    176,101,21,14
+    CONTROL         "z6(x,y) = ",IDC_3D_EQ_ON6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,123,37,10
+    EDITTEXT        IDC_3D_EQ6,58,123,112,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_EQ_SHADING6,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    176,122,21,14
+    CONTROL         "Euclidean Coordinates",IDC_MODE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,21,7,87,10
+    CONTROL         "Polar Coordinates",IDC_MODE2,"Button",
+                    BS_AUTORADIOBUTTON,115,7,71,10
+END
+
+IDD_3DGRAPH_AXIS DIALOG DISCARDABLE  0, 0, 201, 118
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Axes"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Misc",IDC_STATIC,7,7,55,63
+    LTEXT           "x",IDC_X_ORG_TEXT,76,22,8,8
+    EDITTEXT        IDC_X_ORIGIN,84,20,44,12,ES_AUTOHSCROLL
+    LTEXT           "y",IDC_Y_ORG_TEXT,76,36,8,8
+    EDITTEXT        IDC_Y_ORIGIN,84,36,44,12,ES_AUTOHSCROLL
+    LTEXT           "z",IDC_Z_ORG_TEXT,76,52,8,8
+    EDITTEXT        IDC_Z_ORIGIN,84,52,44,12,ES_AUTOHSCROLL
+    CONTROL         "On",IDC_AXIS_ON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    14,17,25,10
+    EDITTEXT        IDC_AXIS_WIDTH,14,30,14,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_AXIS_WIDTH_SPIN,"msctls_updown32",
+                    UDS_ARROWKEYS,27,30,11,12
+    LTEXT           "Width",IDC_STATIC,41,32,20,8
+    GROUPBOX        "Origin Offset",IDC_STATIC,68,7,66,63
+    GROUPBOX        "Color",IDC_STATIC,139,7,55,63
+    LTEXT           "x",IDC_X_CLR_TEXT,146,21,8,8
+    LTEXT           "y",IDC_Y_CLR_TEXT,146,37,8,8
+    LTEXT           "z",IDC_Z_CLR_TEXT,146,52,8,8
+    CONTROL         "",IDC_X_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,157,19,
+                    30,12
+    CONTROL         "",IDC_Y_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,157,35,
+                    30,12
+    CONTROL         "",IDC_Z_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,157,51,
+                    30,12
+    CONTROL         "Labels",IDC_LABELS_ON,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,46,37,10
+    LTEXT           "Angle",IDC_ANGLE_TEXT,15,87,19,8
+    EDITTEXT        IDC_ANGLE,37,86,66,12,ES_AUTOHSCROLL
+    GROUPBOX        "Axis Increment",IDC_STATIC,7,74,104,30
+END
+
+IDD_3DGRAPH_TICKMARKS DIALOG DISCARDABLE  0, 0, 195, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tick Marks"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "On",IDC_TICKS_ON,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    14,18,25,10
+    GROUPBOX        "General Options",IDC_STATIC,7,7,83,57
+    EDITTEXT        IDC_WIDTH,14,30,17,12,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_WIDTH_SPIN,"msctls_updown32",UDS_ARROWKEYS,
+                    30,30,11,12
+    EDITTEXT        IDC_LENGTH,14,46,25,12,ES_AUTOHSCROLL
+    LTEXT           "Tick width",IDC_STATIC,43,33,34,8
+    LTEXT           "Tick Length",IDC_STATIC,43,48,39,8
+    GROUPBOX        "Colors",IDC_STATIC,7,66,124,58
+    CONTROL         "",IDC_X_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,88,74,
+                    31,12
+    LTEXT           "x",IDC_X_CLR_TEXT,76,77,8,8
+    CONTROL         "",IDC_Y_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,88,90,
+                    31,12
+    LTEXT           "y",IDC_Y_CLR_TEXT,76,93,8,8
+    CONTROL         "",IDC_Z_COLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,88,105,
+                    31,12
+    LTEXT           "z",IDC_Z_CLR_TEXT,76,108,8,8
+    CONTROL         "Custom",IDC_CUSTOM_COLORS,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,14,87,39,10
+    CONTROL         "Axis Colors",IDC_AXIS_COLORS,"Button",
+                    BS_AUTORADIOBUTTON,14,98,50,10
+    LTEXT           "x",IDC_X_INT_TEXT,100,17,8,8
+    LTEXT           "y",IDC_Y_INT_TEXT,100,33,8,8
+    LTEXT           "z",IDC_Z_INT_TEXT,100,49,8,8
+    GROUPBOX        "Tick Intervals",IDC_STATIC,93,7,52,57
+    EDITTEXT        IDC_XINT,110,17,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YINT,110,32,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZINT,110,47,30,12,ES_AUTOHSCROLL
+END
+
+IDD_3DGRAPH_EVALUATE DIALOG DISCARDABLE  0, 0, 172, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Evaluate"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_EQ,47,14,28,88,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_X,47,30,112,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y,47,47,112,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Z,47,64,112,14,ES_AUTOHSCROLL | ES_READONLY
+    DEFPUSHBUTTON   "Close",IDOK,60,88,50,14
+    LTEXT           "Equation",IDC_STATIC,14,16,29,8
+    RTEXT           "x",IDC_X_TEXT,14,33,27,8
+    RTEXT           "z",IDC_STATIC,14,67,27,8
+    GROUPBOX        "Evaluate",IDC_STATIC,7,7,158,76
+    EDITTEXT        IDC_EQS,79,14,80,12,ES_AUTOHSCROLL | ES_READONLY
+    RTEXT           "y",IDC_Y_TEXT,14,50,27,8
+END
+
+IDD_2DGRAPH_INTERCEPTS DIALOGEX 0, 0, 234, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Equation Intercepts"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Solve",ID_SOLVE,170,89,50,12
+    PUSHBUTTON      "Close",IDOK,63,130,50,14
+    COMBOBOX        IDC_EQUATION_PICKER,55,18,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Equation",IDC_STATIC,15,21,29,8
+    LTEXT           "",IDC_EQUATION,87,18,132,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_GUESS,55,89,109,12,ES_AUTOHSCROLL
+    LTEXT           "Initial guess",IDC_STATIC,15,91,38,8
+    LTEXT           "Y intercept",IDC_STATIC,15,54,36,8
+    EDITTEXT        IDC_Y_INTERCEPT,55,53,109,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_X_INTERCEPT,55,107,109,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Root",IDC_STATIC,15,109,36,8
+    GROUPBOX        "Equation",IDC_STATIC,7,7,219,31
+    PUSHBUTTON      "Center Graph",IDC_CENTER_GRAPH,170,107,50,12,
+                    WS_DISABLED
+    GROUPBOX        "X Intercept(s)",IDC_STATIC,7,77,219,48
+    GROUPBOX        "Y Intercept",IDC_STATIC,7,42,219,31
+    PUSHBUTTON      "Help",IDC_Help,120,130,50,14
+END
+
+IDD_2DGRAPH_EQ_INTERSECTION DIALOGEX 0, 0, 233, 146
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Equation Intersection"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Solve",ID_SOLVE,169,52,50,12
+    PUSHBUTTON      "Close",IDOK,63,125,50,14
+    COMBOBOX        IDC_EQUATION1_PICKER,55,18,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Equation 1",IDC_STATIC,14,21,35,8
+    LTEXT           "",IDC_EQUATION1,87,18,132,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Equation Intersection",IDC_STATIC,7,7,219,65
+    COMBOBOX        IDC_EQUATION2_PICKER,55,35,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Equation 2",IDC_STATIC,14,37,35,8
+    LTEXT           "",IDC_EQUATION2,87,35,132,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_GUESS,55,52,109,12,ES_AUTOHSCROLL
+    LTEXT           "Initial guess",IDC_STATIC,14,53,38,8
+    LTEXT           "X intercept",IDC_STATIC,14,88,36,8
+    EDITTEXT        IDC_X,55,87,109,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Y intercept",IDC_STATIC,14,104,36,8
+    EDITTEXT        IDC_Y,55,102,109,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Center Graph",IDC_CENTER_GRAPH,169,93,50,12,WS_DISABLED
+    GROUPBOX        "Results",IDC_STATIC,7,73,219,48
+    PUSHBUTTON      "Help",IDC_Help,121,125,50,14
+END
+
+IDD_2DGRAPH_EQ_MINMAX DIALOGEX 0, 0, 233, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Find Minimum and Maximum"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_EQUATION_PICKER,63,18,28,64,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_MIN,63,33,101,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX,63,48,101,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Solve",ID_SOLVE,169,40,50,14
+    PUSHBUTTON      "Close",IDOK,63,129,50,14
+    LTEXT           "Equation",IDC_STATIC,14,21,29,8
+    LTEXT           "",IDC_EQUATION,96,18,123,12,SS_CENTERIMAGE,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Options",IDC_STATIC,7,7,219,60
+    LTEXT           "Upper Bound",IDC_STATIC,14,49,43,8
+    LTEXT           "X",IDC_STATIC,27,91,12,8
+    EDITTEXT        IDC_X,41,90,109,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Y",IDC_STATIC,27,106,13,8
+    EDITTEXT        IDC_Y,41,105,109,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Lower Bound",IDC_STATIC,14,35,43,8
+    GROUPBOX        "Results",IDC_STATIC,7,69,219,55
+    LTEXT           "",IDC_RESULTS,41,78,109,8
+    PUSHBUTTON      "Center Graph",IDC_CENTER_GRAPH,156,97,50,14,WS_DISABLED
+    PUSHBUTTON      "Help",IDC_Help,121,129,50,14
+END
+
+IDD_PROMPTVAL DIALOG DISCARDABLE  0, 0, 246, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_VALUE,58,34,174,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,97,60,50,14
+    RTEXT           "variable",IDC_VARIABLE,10,35,41,8
+    GROUPBOX        "",IDC_STATIC,7,7,232,46
+    EDITTEXT        IDC_MESSAGE,15,15,216,18,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER
+END
+
+IDD_EQUATION_SOLVER DIALOG DISCARDABLE  0, 0, 259, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Equation Solver"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EQ,53,56,193,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GUESS,53,72,109,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Solve",ID_SOLVE,169,72,50,12
+    LTEXT           "Expression",IDC_STATIC,13,58,35,8
+    LTEXT           "Initial guess",IDC_STATIC,13,74,38,8
+    LTEXT           "X",IDC_STATIC,13,90,8,8
+    PUSHBUTTON      "Close",IDOK,75,114,50,14
+    EDITTEXT        IDC_ANSWER,53,88,109,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Solver",IDC_STATIC,7,45,245,63
+    GROUPBOX        "Examples",IDC_STATIC,7,7,245,35
+    LTEXT           "Example 1: ""x^2+9=x+10""\nExample 2: ""x^2-5x-5"" - assumes ""x^2-5x-5 = 0""",
+                    IDC_STATIC,17,19,226,18
+    PUSHBUTTON      "Help",IDC_Help,133,114,50,14
+END
+
+IDD_SAVE_COMMANDS DIALOG DISCARDABLE  0, 0, 215, 221
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save Commands"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,52,203,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,113,203,50,14
+    EDITTEXT        IDC_FILE,14,17,139,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BROWSE,157,17,43,14
+    LISTBOX         IDC_COMMANDS,16,74,185,117,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Script File",IDC_STATIC,7,7,201,32
+    GROUPBOX        "Commands To Save",IDC_STATIC,7,62,201,137
+    CTEXT           "Select the commands below that you would like to save to a file for future use.",
+                    IDC_STATIC,36,41,143,18
+END
+
+IDD_2DGRAPH_N DIALOGEX 0, 0, 370, 34
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "N-Slider"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_N_MIN,7,2,23,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_N_STEP,36,2,23,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_N_MAX,65,2,23,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_N_SPIN,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,91,1,226,16
+    LTEXT           "Min",IDC_STATIC,13,16,12,8
+    LTEXT           "Max",IDC_STATIC,69,16,14,8
+    CTEXT           "",IDC_N,324,5,39,8,SS_CENTERIMAGE
+    LTEXT           "Step",IDC_STATIC,40,16,16,8
+    PUSHBUTTON      "Animate",IDC_ANIMATE,109,18,50,14
+    LTEXT           "increment every",IDC_STATIC,167,21,54,8
+    LTEXT           "milliseconds",IDC_STATIC,264,21,43,8
+    EDITTEXT        IDC_MILLISECONDS,224,19,34,12,ES_AUTOHSCROLL
+END
+
+IDD_2DGRAPH_CREATE_ANIMATION DIALOG DISCARDABLE  0, 0, 194, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Animation Script"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Next >>",IDOK,137,145,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,79,145,50,14
+    GROUPBOX        "Animation Type",IDC_STATIC,7,7,180,37
+    CONTROL         "Realtime animation in GraphCalc",IDC_TYPE_REALTIME,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,14,18,118,10
+    CONTROL         "Generate images for each frame in the animation",
+                    IDC_TYPE_FRAMES,"Button",BS_AUTORADIOBUTTON,14,30,168,10
+    GROUPBOX        "Range Options",IDC_STATIC,7,49,180,63
+    CONTROL         "Minimum to maximum",IDC_RANGEOPTIONS_ONEWAY,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,14,61,82,10
+    CONTROL         "Minimum to maximum and back",IDC_RANGEOPTIONS_XTIMES,
+                    "Button",BS_AUTORADIOBUTTON,14,73,114,10
+    EDITTEXT        IDC_RANGEOPTIONS_TIMES_THROUGH,49,84,33,12,
+                    ES_AUTOHSCROLL
+    LTEXT           "times",IDC_STATIC_TIMES,86,86,17,8
+    CONTROL         "",IDC_RANGEOPTIONS_TIMES_X,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,36,86,11,8
+    CONTROL         "infinitely (until you cancel the script)",
+                    IDC_RANGEOPTIONS_TIMES_FOREVER,"Button",
+                    BS_AUTORADIOBUTTON,36,98,127,10
+    CONTROL         "Run script after it is generated",IDC_RUN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,126,110,10
+    GROUPBOX        "Other Options",IDC_STATIC,7,114,180,27
+END
+
+IDD_2DGRAPH_OPTIONS_MODE DIALOG DISCARDABLE  0, 0, 266, 198
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Mode"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Euclidean Coordinates",IDC_MODE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,7,7,87,10
+    CONTROL         "Polar Coordinates",IDC_MODE2,"Button",
+                    BS_AUTORADIOBUTTON,7,67,71,10
+    CONTROL         "Parametric",IDC_MODE3,"Button",BS_AUTORADIOBUTTON,7,127,
+                    49,10
+    LTEXT           "description of euclidean graphing\ny=x^2\ny=sin(x)",
+                    IDC_STATIC,30,18,229,45
+    LTEXT           "description of polar graphing\nr=t\nr=sin(t)",
+                    IDC_STATIC,30,78,229,45
+    LTEXT           "description of parametric graphing\nx(t)=t^2  y(t)=tan(t)",
+                    IDC_STATIC,30,137,229,45
+END
+
+IDD_2DGRAPH_OPTIONS_PARAMETRIC_EQUATIONS DIALOG DISCARDABLE  0, 0, 269, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Equations"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Eq1",IDC_ON_EQ1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    19,29,10
+    EDITTEXT        IDC_EQX1,54,8,175,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EQY1,54,25,175,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_EQ1,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,236,18,26,13
+    CONTROL         "Eq2",IDC_ON_EQ2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    57,29,10
+    EDITTEXT        IDC_EQX2,54,46,175,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EQY2,54,63,175,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_EQ2,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,236,56,26,13
+    CONTROL         "Eq3",IDC_ON_EQ3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    96,29,10
+    EDITTEXT        IDC_EQX3,54,84,175,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EQY3,54,102,175,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_EQ3,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,236,93,26,13
+    CONTROL         "Eq4",IDC_ON_EQ4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    136,29,10
+    EDITTEXT        IDC_EQX4,54,124,175,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EQY4,54,141,175,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_EQ4,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,236,133,26,13
+    CONTROL         "Eq5",IDC_ON_EQ5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,
+                    174,29,10
+    EDITTEXT        IDC_EQX5,54,163,175,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EQY5,54,180,175,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_COLOR_EQ5,"Button",BS_OWNERDRAW | BS_CENTER | 
+                    BS_VCENTER | WS_TABSTOP,236,172,26,13
+    LTEXT           "x(t)",IDC_STATIC,40,11,10,8
+    LTEXT           "y(t)",IDC_STATIC,40,28,10,8
+    LTEXT           "x(t)",IDC_STATIC,40,50,10,8
+    LTEXT           "y(t)",IDC_STATIC,40,67,10,8
+    LTEXT           "x(t)",IDC_STATIC,40,88,10,8
+    LTEXT           "y(t)",IDC_STATIC,40,105,10,8
+    LTEXT           "x(t)",IDC_STATIC,40,127,10,8
+    LTEXT           "y(t)",IDC_STATIC,40,144,10,8
+    LTEXT           "x(t)",IDC_STATIC,40,167,10,8
+    LTEXT           "y(t)",IDC_STATIC,40,184,10,8
+END
+
+IDD_2DGRAPH_OPTIONS_PARAMETRIC_RANGE DIALOG DISCARDABLE  0, 0, 263, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Range && Precision"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_XMIN,36,17,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XMAX,36,34,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_XINT,36,51,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMIN,36,68,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_YMAX,36,85,91,12,ES_AUTOHSCROLL
+    LTEXT           "x min",IDC_STATIC,12,19,17,8
+    EDITTEXT        IDC_YINT,36,102,91,12,ES_AUTOHSCROLL
+    LTEXT           "x max",IDC_STATIC,12,36,19,8
+    LTEXT           "x scl",IDC_STATIC,12,53,15,8
+    LTEXT           "y min",IDC_STATIC,12,70,17,8
+    LTEXT           "y max",IDC_STATIC,12,87,19,8
+    LTEXT           "y scl",IDC_STATIC,12,104,15,8
+    GROUPBOX        "View Range",IDC_STATIC,7,7,249,114
+    LTEXT           "This is the region you would like the graph window to view.  The scale parameters define how often tick marks are made on the axes and the spacing of grid lines.",
+                    IDC_STATIC,136,16,105,52
+    GROUPBOX        "T Range",IDC_STATIC,7,123,249,63
+    LTEXT           "t min",IDC_STATIC,12,136,16,8
+    EDITTEXT        IDC_TMIN,36,134,91,12,ES_AUTOHSCROLL
+    LTEXT           "t max",IDC_STATIC,12,152,18,8
+    EDITTEXT        IDC_TMAX,36,150,91,12,ES_AUTOHSCROLL
+    LTEXT           "t step",IDC_STATIC,12,167,18,8
+    EDITTEXT        IDC_TSTEP,36,166,91,12,ES_AUTOHSCROLL
+    LTEXT           "t min, max, step: This is the range over which you want to graph a parametric function. The step is the amount between successive points.  A typical step setting would be about 0.05.",
+                    IDC_STATIC,136,131,106,52
+END
+
+IDD_2DGRAPH_EVALUATE_PARAMETRIC DIALOG DISCARDABLE  0, 0, 172, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Evaluate"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,60,120,50,14
+    COMBOBOX        IDC_EQ,47,15,28,88,CBS_DROPDOWNLIST | CBS_AUTOHSCROLL | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_X,47,79,112,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_Y,47,97,112,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Equation",IDC_STATIC,14,17,29,8
+    LTEXT           "x value",IDC_STATIC,14,80,24,8
+    LTEXT           "y value",IDC_STATIC,14,98,24,8
+    GROUPBOX        "Evaluate",IDC_STATIC,7,7,158,111
+    EDITTEXT        IDC_XT,47,31,112,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "x(t)",IDC_STATIC,14,32,10,8
+    EDITTEXT        IDC_YT,47,47,112,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "y(t)",IDC_STATIC,14,47,10,8
+    EDITTEXT        IDC_T,47,63,112,12,ES_AUTOHSCROLL
+    LTEXT           "t value",IDC_STATIC,14,63,22,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 4,0,0,0
+ PRODUCTVERSION 4,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "GraphCalc\0"
+            VALUE "FileDescription", "GrphCalc\0"
+            VALUE "FileVersion", "4, 0, 0, 0\0"
+            VALUE "InternalName", "GraphCalc\0"
+            VALUE "LegalCopyright", "Copyright (C) 1999 - 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "GrphCalc.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "GraphCalc\0"
+            VALUE "ProductVersion", "4, 0, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_2DGRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 379
+        VERTGUIDE, 118
+        VERTGUIDE, 237
+        VERTGUIDE, 251
+        VERTGUIDE, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+    END
+
+    IDD_2DGRAPH_OPTIONS_0, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_2DGRAPH_OPTIONS_1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_2DGRAPH_OPTIONS_2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        VERTGUIDE, 16
+        VERTGUIDE, 112
+        VERTGUIDE, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_MODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        VERTGUIDE, 63
+        VERTGUIDE, 66
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 167
+    END
+
+    IDD_RENAME_GRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_2DGRAPH_INTEGRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        VERTGUIDE, 75
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_CATALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 93
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_2DGRAPH_EVALUATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        VERTGUIDE, 47
+        VERTGUIDE, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_2DGRAPH_TANGENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 162
+        VERTGUIDE, 54
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_2DGRAPH_DISTANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 197
+        VERTGUIDE, 75
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_PRINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        VERTGUIDE, 13
+        VERTGUIDE, 19
+        VERTGUIDE, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+        HORZGUIDE, 173
+    END
+
+    IDD_2DGRAPH_OPTIONS_POLAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 254
+        VERTGUIDE, 15
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_COMMANDS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 190
+    END
+
+    IDD_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        VERTGUIDE, 14
+        VERTGUIDE, 28
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 232
+        HORZGUIDE, 82
+    END
+
+    CG_IDD_PROGRESS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_2DGRAPH_TABLEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 311
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_2DGRAPH_N, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 363
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_2DGRAPH_CREATE_ANIMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_2DGRAPH_OPTIONS_MODE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_2DGRAPH_OPTIONS_PARAMETRIC_EQUATIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 262
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_2DGRAPH_OPTIONS_PARAMETRIC_RANGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_2DGRAPH_EVALUATE_PARAMETRIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        VERTGUIDE, 14
+        VERTGUIDE, 47
+        VERTGUIDE, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_BASE MENU DISCARDABLE 
+BEGIN
+    POPUP "Base"
+    BEGIN
+        POPUP "Set Base"
+        BEGIN
+            MENUITEM "Binary",                      ID_BASE_2
+            MENUITEM "3",                           ID_BASE_3
+            MENUITEM "4",                           ID_BASE_4
+            MENUITEM "5",                           ID_BASE_5
+            MENUITEM "6",                           ID_BASE_6
+            MENUITEM "7",                           ID_BASE_7
+            MENUITEM "Octal",                       ID_BASE_8
+            MENUITEM "9",                           ID_BASE_9
+            MENUITEM "Decimal",                     ID_BASE_10
+            MENUITEM "11",                          ID_BASE_11
+            MENUITEM "12",                          ID_BASE_12
+            MENUITEM "13",                          ID_BASE_13
+            MENUITEM "14",                          ID_BASE_14
+            MENUITEM "15",                          ID_BASE_15
+            MENUITEM "Hexadecimal",                 ID_BASE_16
+            MENUITEM "17",                          ID_BASE_17
+            MENUITEM "18",                          ID_BASE_18
+            MENUITEM "19",                          ID_BASE_19
+            MENUITEM "20",                          ID_BASE_20
+            MENUITEM "21",                          ID_BASE_21
+            MENUITEM "22",                          ID_BASE_22
+            MENUITEM "23",                          ID_BASE_23
+            MENUITEM "24",                          ID_BASE_24
+            MENUITEM "25",                          ID_BASE_25
+            MENUITEM "26",                          ID_BASE_26
+            MENUITEM "27",                          ID_BASE_27
+            MENUITEM "28",                          ID_BASE_28
+            MENUITEM "29",                          ID_BASE_29
+            MENUITEM "30",                          ID_BASE_30
+            MENUITEM "31",                          ID_BASE_31
+            MENUITEM "32",                          ID_BASE_32
+            MENUITEM "33",                          ID_BASE_33
+            MENUITEM "34",                          ID_BASE_34
+            MENUITEM "35",                          ID_BASE_35
+            MENUITEM "36",                          ID_BASE_36
+        END
+        POPUP "Convert To Base ->"
+        BEGIN
+            MENUITEM "Binary",                      ID_CONVER_BASE_2
+            MENUITEM "3",                           ID_CONVER_BASE_3
+            MENUITEM "4",                           ID_CONVER_BASE_4
+            MENUITEM "5",                           ID_CONVER_BASE_5
+            MENUITEM "6",                           ID_CONVER_BASE_6
+            MENUITEM "7",                           ID_CONVER_BASE_7
+            MENUITEM "Octal",                       ID_CONVER_BASE_8
+            MENUITEM "9",                           ID_CONVER_BASE_9
+            MENUITEM "Decimal",                     ID_CONVER_BASE_10
+            MENUITEM "11",                          ID_CONVER_BASE_11
+            MENUITEM "12",                          ID_CONVER_BASE_12
+            MENUITEM "13",                          ID_CONVER_BASE_13
+            MENUITEM "14",                          ID_CONVER_BASE_14
+            MENUITEM "15",                          ID_CONVER_BASE_15
+            MENUITEM "Hexadecimal",                 ID_CONVER_BASE_16
+            MENUITEM "17",                          ID_CONVER_BASE_17
+            MENUITEM "18",                          ID_CONVER_BASE_18
+            MENUITEM "19",                          ID_CONVER_BASE_19
+            MENUITEM "20",                          ID_CONVER_BASE_20
+            MENUITEM "21",                          ID_CONVER_BASE_21
+            MENUITEM "22",                          ID_CONVER_BASE_22
+            MENUITEM "23",                          ID_CONVER_BASE_23
+            MENUITEM "24",                          ID_CONVER_BASE_24
+            MENUITEM "25",                          ID_CONVER_BASE_25
+            MENUITEM "26",                          ID_CONVER_BASE_26
+            MENUITEM "27",                          ID_CONVER_BASE_27
+            MENUITEM "28",                          ID_CONVER_BASE_28
+            MENUITEM "29",                          ID_CONVER_BASE_29
+            MENUITEM "30",                          ID_CONVER_BASE_30
+            MENUITEM "31",                          ID_CONVER_BASE_31
+            MENUITEM "32",                          ID_CONVER_BASE_32
+            MENUITEM "33",                          ID_CONVER_BASE_33
+            MENUITEM "34",                          ID_CONVER_BASE_34
+            MENUITEM "35",                          ID_CONVER_BASE_35
+            MENUITEM "36",                          ID_CONVER_BASE_36
+        END
+        MENUITEM "Help with Bases",             ID_BASE_HELP
+    END
+END
+
+IDR_CLEAR MENU DISCARDABLE 
+BEGIN
+    POPUP "Clear"
+    BEGIN
+        MENUITEM "Character",                   ID_CLEAR_1
+        MENUITEM "Expression",                  ID_CLEAR_2
+        MENUITEM "Graph",                       ID_CLEAR_3
+        MENUITEM "Output",                      ID_CLEAR_4
+        MENUITEM "History",                     ID_CLEAR_5
+        MENUITEM SEPARATOR
+        MENUITEM "All",                         ID_CLEAR_ALL
+    END
+END
+
+IDR_COS MENU DISCARDABLE 
+BEGIN
+    POPUP "Cos"
+    BEGIN
+        MENUITEM "cos",                         ID_COS_1
+        MENUITEM "arc cos",                     ID_COS_2
+        MENUITEM "hyp cos",                     ID_COS_3
+    END
+END
+
+IDR_EE MENU DISCARDABLE 
+BEGIN
+    POPUP "EE"
+    BEGIN
+        MENUITEM "10 to the X",                 ID_EE_1
+        MENUITEM "10 to the -X",                ID_EE_2
+    END
+END
+
+IDR_LN MENU DISCARDABLE 
+BEGIN
+    POPUP "LN"
+    BEGIN
+        MENUITEM "Log base e",                  ID_LN_1
+        MENUITEM "e to the X",                  ID_LN_2
+    END
+END
+
+IDR_LOG MENU DISCARDABLE 
+BEGIN
+    POPUP "Log"
+    BEGIN
+        MENUITEM "Log base 10",                 ID_LOG_1
+        MENUITEM "10 to the X",                 ID_LOG_2
+    END
+END
+
+IDR_POWERS MENU DISCARDABLE 
+BEGIN
+    POPUP "Powers"
+    BEGIN
+        MENUITEM "x to the 2",                  ID_POWER_1
+        MENUITEM "x to the 3",                  ID_POWER_2
+        MENUITEM "x to the 4",                  ID_POWER_3
+        MENUITEM "x to the 5",                  ID_POWER_4
+        MENUITEM "x to the -1",                 ID_POWER_5
+        MENUITEM "x to the -2",                 ID_POWER_6
+        MENUITEM "x to the -3",                 ID_POWER_7
+        MENUITEM "x to the -4",                 ID_POWER_8
+        MENUITEM "x to the -5",                 ID_POWER_9
+    END
+END
+
+IDR_ROOTS MENU DISCARDABLE 
+BEGIN
+    POPUP "Roots"
+    BEGIN
+        MENUITEM "X to the 1/2",                ID_R_1
+        MENUITEM "X to the 1/3",                ID_R_2
+        MENUITEM "X to the 1/4",                ID_R_3
+        MENUITEM "X to the 1/5",                ID_R_4
+        MENUITEM "X to the -1/2",               ID_R_5
+        MENUITEM "X to the -1/3",               ID_R_6
+        MENUITEM "X to the -1/4",               ID_R_7
+        MENUITEM "X to the -1/5",               ID_R_8
+    END
+END
+
+IDR_SIN MENU DISCARDABLE 
+BEGIN
+    POPUP "Sin"
+    BEGIN
+        MENUITEM "sin",                         ID_SIN_1
+        MENUITEM "arc sin",                     ID_SIN_2
+        MENUITEM "hyp sin",                     ID_SIN_3
+    END
+END
+
+IDR_TAN MENU DISCARDABLE 
+BEGIN
+    POPUP "Tan"
+    BEGIN
+        MENUITEM "tan",                         ID_TAN_1
+        MENUITEM "arc tan",                     ID_TAN_2
+        MENUITEM "hyp tan",                     ID_TAN_3
+    END
+END
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save Output...",             ID_FILE_SAVEOUTPUT
+        POPUP "Scri&pts"
+        BEGIN
+            MENUITEM "&Run Script...",              ID_FILE_RUNSCRIPT
+            MENUITEM "Save S&cript...",             ID_FILE_SAVESCRIPT
+        END
+        POPUP "Se&ttings"
+        BEGIN
+            MENUITEM "&Load Settings File...",      ID_FILE_LOADSETTINGSFILE
+            MENUITEM "&Save Settings Now...",       ID_FILE_OPTIONS_SAVESETTINGSNOW
+
+            MENUITEM "Save Settings &As...",        ID_FILE_SAVESETTINGSAS
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Paste",                      ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        POPUP "Clea&r"
+        BEGIN
+            MENUITEM "&Character",                  ID_CLEAR_1
+            MENUITEM "&Expression",                 ID_CLEAR_2
+            MENUITEM "&Graph",                      ID_CLEAR_3
+            MENUITEM "&Output",                     ID_CLEAR_4
+            MENUITEM "&History",                    ID_CLEAR_5
+            MENUITEM SEPARATOR
+            MENUITEM "All",                         ID_CLEAR_ALL
+        END
+    END
+    POPUP "&Insert"
+    BEGIN
+        POPUP "Convert To &Base"
+        BEGIN
+            MENUITEM "Binary",                      ID_CONVER_BASE_2
+            MENUITEM "3",                           ID_CONVER_BASE_3
+            MENUITEM "4",                           ID_CONVER_BASE_4
+            MENUITEM "5",                           ID_CONVER_BASE_5
+            MENUITEM "6",                           ID_CONVER_BASE_6
+            MENUITEM "7",                           ID_CONVER_BASE_7
+            MENUITEM "Octal",                       ID_CONVER_BASE_8
+            MENUITEM "9",                           ID_CONVER_BASE_9
+            MENUITEM "Decimal",                     ID_CONVER_BASE_10
+            MENUITEM "11",                          ID_CONVER_BASE_11
+            MENUITEM "12",                          ID_CONVER_BASE_12
+            MENUITEM "13",                          ID_CONVER_BASE_13
+            MENUITEM "14",                          ID_CONVER_BASE_14
+            MENUITEM "15",                          ID_CONVER_BASE_15
+            MENUITEM "Hexadecimal",                 ID_CONVER_BASE_16
+            MENUITEM "17",                          ID_CONVER_BASE_17
+            MENUITEM "18",                          ID_CONVER_BASE_18
+            MENUITEM "19",                          ID_CONVER_BASE_19
+            MENUITEM "20",                          ID_CONVER_BASE_20
+            MENUITEM "21",                          ID_CONVER_BASE_21
+            MENUITEM "22",                          ID_CONVER_BASE_22
+            MENUITEM "23",                          ID_CONVER_BASE_23
+            MENUITEM "24",                          ID_CONVER_BASE_24
+            MENUITEM "25",                          ID_CONVER_BASE_25
+            MENUITEM "26",                          ID_CONVER_BASE_26
+            MENUITEM "27",                          ID_CONVER_BASE_27
+            MENUITEM "28",                          ID_CONVER_BASE_28
+            MENUITEM "29",                          ID_CONVER_BASE_29
+            MENUITEM "30",                          ID_CONVER_BASE_30
+            MENUITEM "31",                          ID_CONVER_BASE_31
+            MENUITEM "32",                          ID_CONVER_BASE_32
+            MENUITEM "33",                          ID_CONVER_BASE_33
+            MENUITEM "34",                          ID_CONVER_BASE_34
+            MENUITEM "35",                          ID_CONVER_BASE_35
+            MENUITEM "36",                          ID_CONVER_BASE_36
+        END
+        MENUITEM SEPARATOR
+        POPUP "&EE"
+        BEGIN
+            MENUITEM "10 to the X",                 ID_EE_1
+            MENUITEM "10 to the -X",                ID_EE_2
+        END
+        POPUP "&Trigonometry"
+        BEGIN
+            POPUP "Cos"
+            BEGIN
+                MENUITEM "cos",                         ID_COS_1
+                MENUITEM "arc cos",                     ID_COS_2
+                MENUITEM "hyp cos",                     ID_COS_3
+            END
+            POPUP "Sin"
+            BEGIN
+                MENUITEM "sin",                         ID_SIN_1
+                MENUITEM "arc sin",                     ID_SIN_2
+                MENUITEM "hyp sin",                     ID_SIN_3
+            END
+            POPUP "Tan"
+            BEGIN
+                MENUITEM "tan",                         ID_TAN_1
+                MENUITEM "arc tan",                     ID_TAN_2
+                MENUITEM "hyp tan",                     ID_TAN_3
+            END
+        END
+        MENUITEM SEPARATOR
+        POPUP "L&N"
+        BEGIN
+            MENUITEM "Log base e",                  ID_LN_1
+            MENUITEM "e to the X",                  ID_LN_2
+        END
+        POPUP "&Log"
+        BEGIN
+            MENUITEM "Log base 10",                 ID_LOG_1
+            MENUITEM "10 to the X",                 ID_LOG_2
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Roots"
+        BEGIN
+            MENUITEM "X to the 1/2",                ID_R_1
+            MENUITEM "X to the 1/3",                ID_R_2
+            MENUITEM "X to the 1/4",                ID_R_3
+            MENUITEM "X to the 1/5",                ID_R_4
+            MENUITEM "X to the -1/2",               ID_R_5
+            MENUITEM "X to the -1/3",               ID_R_6
+            MENUITEM "X to the -1/4",               ID_R_7
+            MENUITEM "X to the -1/5",               ID_R_8
+        END
+        POPUP "&Powers"
+        BEGIN
+            MENUITEM "x to the 2",                  ID_POWER_1
+            MENUITEM "x to the 3",                  ID_POWER_2
+            MENUITEM "x to the 4",                  ID_POWER_3
+            MENUITEM "x to the 5",                  ID_POWER_4
+            MENUITEM "x to the -1",                 ID_POWER_5
+            MENUITEM "x to the -2",                 ID_POWER_6
+            MENUITEM "x to the -3",                 ID_POWER_7
+            MENUITEM "x to the -4",                 ID_POWER_8
+            MENUITEM "x to the -5",                 ID_POWER_9
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Catalog...",                 ID_FILE_CATALOG
+        MENUITEM "Co&mmand...",                 ID_INSERT_COMMAND
+    END
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Equation Solver...",          ID_FILE_EQUATIONSOLVER
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Mode...",                    ID_OPTIONS_MODE
+        MENUITEM "Program Options...",          ID_OPTIONS_PROGRAMOPTIONS
+        MENUITEM SEPARATOR
+        POPUP "Set &Base"
+        BEGIN
+            MENUITEM "Binary",                      ID_BASE_2
+            MENUITEM "3",                           ID_BASE_3
+            MENUITEM "4",                           ID_BASE_4
+            MENUITEM "5",                           ID_BASE_5
+            MENUITEM "6",                           ID_BASE_6
+            MENUITEM "7",                           ID_BASE_7
+            MENUITEM "Octal",                       ID_BASE_8
+            MENUITEM "9",                           ID_BASE_9
+            MENUITEM "Decimal",                     ID_BASE_10
+            MENUITEM "11",                          ID_BASE_11
+            MENUITEM "12",                          ID_BASE_12
+            MENUITEM "13",                          ID_BASE_13
+            MENUITEM "14",                          ID_BASE_14
+            MENUITEM "15",                          ID_BASE_15
+            MENUITEM "Hexadecimal",                 ID_BASE_16
+            MENUITEM "17",                          ID_BASE_17
+            MENUITEM "18",                          ID_BASE_18
+            MENUITEM "19",                          ID_BASE_19
+            MENUITEM "20",                          ID_BASE_20
+            MENUITEM "21",                          ID_BASE_21
+            MENUITEM "22",                          ID_BASE_22
+            MENUITEM "23",                          ID_BASE_23
+            MENUITEM "24",                          ID_BASE_24
+            MENUITEM "25",                          ID_BASE_25
+            MENUITEM "26",                          ID_BASE_26
+            MENUITEM "27",                          ID_BASE_27
+            MENUITEM "28",                          ID_BASE_28
+            MENUITEM "29",                          ID_BASE_29
+            MENUITEM "30",                          ID_BASE_30
+            MENUITEM "31",                          ID_BASE_31
+            MENUITEM "32",                          ID_BASE_32
+            MENUITEM "33",                          ID_BASE_33
+            MENUITEM "34",                          ID_BASE_34
+            MENUITEM "35",                          ID_BASE_35
+            MENUITEM "36",                          ID_BASE_36
+        END
+        POPUP "Output Font Settings"
+        BEGIN
+            MENUITEM "&Answer...",                  ID_FILE_OPTIONS_ANSWERFONT
+
+            MENUITEM "&Base...",                    ID_OPTIONS_OUTPUTFONTSETTINGS_BASE
+
+            MENUITEM "&Detailed Output...",         ID_OPTIONS_OUTPUTFONTSETTINGS_DETAILEDOUTPUT
+
+            MENUITEM "&Expression...",              ID_FILE_OPTIONS_EXPRESSIONFONT
+
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help\tF1",                   ID_HELP
+        MENUITEM SEPARATOR
+        MENUITEM "&About",                      ID_APP_ABOUT
+    END
+END
+
+IDR_PALETE MENU DISCARDABLE 
+BEGIN
+    POPUP "Palettes"
+    BEGIN
+        MENUITEM "&Probability",                ID_PALETES_PROB
+        MENUITEM "&Test",                       ID_PALETES_TEST
+        MENUITEM "&Math",                       ID_PALETES_MATH
+        MENUITEM "Stats",                       ID_PALETES_STATS
+        MENUITEM "Hex Digits",                  ID_PALETES_LETTERS
+        MENUITEM SEPARATOR
+        MENUITEM "&None",                       ID_PALETES_NONE
+    END
+END
+
+IDR_3DGRAPH MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Options...\tCtrl+G",         ID_3DGRAPH_OPTIONS
+    MENUITEM "",                            1
+    MENUITEM "Equations...",                ID_3DGRAPH_EQUATIONS
+    MENUITEM "Range && Wire...",            ID_3DGRAPH_RANGEWIRE
+    MENUITEM "Axes...",                     ID_3DGRAPH_AXES
+    MENUITEM "Tick Marks...",               ID_3DGRAPH_TICKMARKS
+    MENUITEM "",                            2
+    MENUITEM "Re-Compute All Equations",    ID_3DGRAPH_RECOMPUTE
+    MENUITEM "Re-Center View",              ID_3DGRAPH_CENTERVIEW
+    MENUITEM "Zoom &In\t+",                 ID_3DGRAPH_ZOOM_IN_Z
+    MENUITEM "Zoom &Out\t-",                ID_3DGRAPH_ZOOM_OUT_Z
+    POPUP "Auto-Rotate"
+    BEGIN
+        MENUITEM "All Axis",                    ID_3DGRAPH_AUTOROTATE_ALLAXIS
+
+        MENUITEM SEPARATOR
+        MENUITEM "X-Axis",                      ID_3DGRAPH_AUTOROTATE_XAXIS
+        MENUITEM "Y-Axis",                      ID_3DGRAPH_AUTOROTATE_YAXIS
+        MENUITEM "Z-Axis",                      ID_3DGRAPH_AUTOROTATE_ZAXIS
+        MENUITEM SEPARATOR
+        MENUITEM "Increase Speed",              ID_3DGRAPH_AUTOROTATE_INCREASESPEED
+
+        MENUITEM "Decrease Speed",              ID_3DGRAPH_AUTOROTATE_DECREASESPEED
+
+    END
+    MENUITEM "View Full Window\tCtrl+W",    ID_VIEW_FULLSCREEN
+    MENUITEM SEPARATOR
+    MENUITEM "Evaluate...",                 ID_3DGRAPH_EVALUATE
+    MENUITEM SEPARATOR
+    MENUITEM "&Copy Graph To Clipboard\tCtrl+C", ID_3DGRAPH_COPYGRAPH
+    MENUITEM "Export to DXF...",            ID_3DGRAPH_EXPORTTODFX
+    MENUITEM "Save as Bitmap...",           ID_3DGRAPH_SAVEASBITMAP
+    MENUITEM "Print...\tCtrl+P",            ID_3DGRAPH_PRINT
+END
+
+IDR_2DGRAPH MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Options...\tCtrl+G",         ID_OPTIONS_GRAPH
+    MENUITEM "",                            1
+    MENUITEM "&Equations...",               ID_GRAPH_EQUATIONS
+    MENUITEM "&Range && Precision...",      ID_GRAPH_RANGEPRECISION
+    MENUITEM "&Display...",                 ID_GRAPH_DISPLAY
+    MENUITEM "",                            2
+    POPUP "&Zoom"
+    BEGIN
+        POPUP "&In"
+        BEGIN
+            MENUITEM "X &and Y\tF6",                ID_GRAPH_ZOOM_IN_XY
+            MENUITEM "&X\tF7",                      ID_GRAPH_ZOOM_IN_X
+            MENUITEM "&Y\tF8",                      ID_GRAPH_ZOOM_IN_Y
+        END
+        POPUP "&Out"
+        BEGIN
+            MENUITEM "X &and Y\tF9",                ID_GRAPH_ZOOM_OUT_XY
+            MENUITEM "&X\tF10",                     ID_GRAPH_ZOOM_OUT_X
+            MENUITEM "&Y\tF11",                     ID_GRAPH_ZOOM_OUT_Y
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Standard\tAlt+S",            ID_GRAPH_ZOOM_STANDARD
+        MENUITEM "&Decimal\tAlt+D",             ID_GRAPH_ZOOM_DECIMAL
+        MENUITEM "&Trig\tAlt+T",                ID_GRAPH_ZOOM_TRIG
+        MENUITEM "I&nteger\tAlt+I",             ID_GRAPH_ZOOM_INTEGER
+        MENUITEM "&Fit\tCtrl+Shift+F",          ID_GRAPH_ZOOM_FIT
+        MENUITEM SEPARATOR
+        MENUITEM "&Previous Range",             ID_GRAPH_ZOOM_PREVIOUSRANGE
+    END
+    POPUP "&Analysis"
+    BEGIN
+        MENUITEM "Find &Area...\tCtrl+F",       ID_GRAPH_FINDAREA
+        MENUITEM "&Trace\tCtrl+T",              ID_GRAPH_GRAPHTRACE
+        MENUITEM "&Evaluate...\tCtrl+E",        ID_GRAPH_EVALUATE
+        MENUITEM "Tangent &Line...\tCtrl+L",    ID_GRAPH_TANGENTLINE
+        MENUITEM "&Clear Tangent Lines",        ID_GRAPH_CLEARTANGENTLINES
+        MENUITEM "&Distance...\tCtrl+D",        ID_GRAPH_DISTANCE
+        MENUITEM "&N-Slider",                   ID_ANALYSIS_NSLIDER
+        MENUITEM "",                            8
+        MENUITEM "Axis &Intercepts...\tCtrl+A", ID_2DGRAPH_ANALYSIS_INTERCEPTS
+
+        MENUITEM "Inter&section of 2 Equations...\tCtrl+I", 
+                                                ID_2DGRAPH_ANALYSIS_INTERSECTIONOF2EQUATIONS
+
+        MENUITEM "Equation &Min && Max...\tCtrl+M", ID_ANALYSIS_EQ_MINMAX
+        MENUITEM "Ta&ble...",                   ID_2DGRAPH_ANALYSIS_TABLE
+    END
+    POPUP "Graph &Tabs"
+    BEGIN
+        MENUITEM "&Add Graph Tab\tAlt+A",       ID_GRAPH_ADDGRAPHTAB
+        MENUITEM "&Remove Current Graph Tab\tAlt+R", ID_GRAPH_REMOVEGRAPHTAB
+        MENUITEM "Re&name Tab\tAlt+N",          ID_GRAPH_RENAMETAB
+    END
+    MENUITEM "",                            5
+    MENUITEM "&Copy Graph To Clipboard\tCtrl+C", ID_GRAPH_COPYGRAPH
+    MENUITEM "&Print Graph...\tCtrl+P",     ID_GRAPH_PRINT
+    MENUITEM "&Save as Bitmap...",          ID_GRAPH_SAVEASBITMAP
+    MENUITEM "Create Animation Script...",  ID_ANIMATION_SCRIPT
+END
+
+IDR_VAR MENU DISCARDABLE 
+BEGIN
+    POPUP "VAR"
+    BEGIN
+        MENUITEM "x",                           ID_VAR_X
+        MENUITEM "y",                           ID_VAR_Y
+        MENUITEM "t",                           ID_VAR_T
+        MENUITEM "r",                           ID_VAR_R
+    END
+END
+
+IDR_2DGRAPH_VIEW MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Infobar",                     ID_VIEW_2D_INFOBAR
+    MENUITEM "Toolbar",                     ID_VIEW_2D_TOOLBAR
+    MENUITEM SEPARATOR
+    MENUITEM "Always On Top",               ID_OPTIONS_ALWAYSONTOP
+END
+
+IDR_3DGRAPH_VIEW MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Always On Top",               ID_OPTIONS_ALWAYSONTOP
+    MENUITEM "View Full Window\tCtrl+W",    ID_VIEW_FULLSCREEN
+END
+
+IDR_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "Button &Palette"
+    BEGIN
+        MENUITEM "&Probability\tCtrl+Shift+P",  ID_PALETES_PROB
+        MENUITEM "&Test\tCtrl+Shift+T",         ID_PALETES_TEST
+        MENUITEM "&Math\tCtrl+Shift+M",         ID_PALETES_MATH
+        MENUITEM "Stats\tCtrl+Shift+A",         ID_PALETES_STATS
+        MENUITEM "Hex Digits\tCtrl+Shift+D",    ID_PALETES_LETTERS
+        MENUITEM SEPARATOR
+        MENUITEM "&None\tCtrl+Shift+N",         ID_PALETES_NONE
+    END
+    MENUITEM "Always On Top",               ID_OPTIONS_ALWAYSONTOP
+    MENUITEM "View Full Window\tCtrl+W",    ID_VIEW_FULLSCREEN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_0D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D0.bmp"
+IDB_0U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U0.bmp"
+IDB_10D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D10.bmp"
+IDB_10U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U10.bmp"
+IDB_11D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D11.bmp"
+IDB_11U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U11.bmp"
+IDB_12D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D12.bmp"
+IDB_12U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U12.bmp"
+IDB_13D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D13.bmp"
+IDB_13U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U13.bmp"
+IDB_14D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D14.bmp"
+IDB_14U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U14.bmp"
+IDB_15D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D15.bmp"
+IDB_15U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U15.bmp"
+IDB_16D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D16.bmp"
+IDB_16U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U16.bmp"
+IDB_17D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D17.bmp"
+IDB_17U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U17.bmp"
+IDB_18D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D18.bmp"
+IDB_18U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U18.bmp"
+IDB_19D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D19.bmp"
+IDB_19U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U19.bmp"
+IDB_1D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D1.bmp"
+IDB_1U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U1.bmp"
+IDB_20D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D20.bmp"
+IDB_20U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U20.bmp"
+IDB_21D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D21.bmp"
+IDB_21U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U21.bmp"
+IDB_22D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D22.bmp"
+IDB_22U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U22.bmp"
+IDB_23D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D23.bmp"
+IDB_23U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U23.bmp"
+IDB_24D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D24.bmp"
+IDB_24U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U24.bmp"
+IDB_25D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D25.bmp"
+IDB_25U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U25.bmp"
+IDB_26D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D26.bmp"
+IDB_26U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U26.bmp"
+IDB_27D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D27.bmp"
+IDB_27U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U27.bmp"
+IDB_28D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D28.bmp"
+IDB_28U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U28.bmp"
+IDB_29D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D29.bmp"
+IDB_29U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U29.bmp"
+IDB_2D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D2.bmp"
+IDB_2U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U2.bmp"
+IDB_30D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D30.bmp"
+IDB_30U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U30.bmp"
+IDB_31D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D31.bmp"
+IDB_31U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U31.bmp"
+IDB_32D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D32.bmp"
+IDB_32U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U32.bmp"
+IDB_33D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D33.bmp"
+IDB_33U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U33.bmp"
+IDB_34D                 BITMAP  DISCARDABLE     "Buttons\\IDB_D34.bmp"
+IDB_34U                 BITMAP  DISCARDABLE     "Buttons\\IDB_U34.bmp"
+IDB_3D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D3.bmp"
+IDB_3U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U3.bmp"
+IDB_4D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D4.bmp"
+IDB_4U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U4.bmp"
+IDB_5D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D5.bmp"
+IDB_5U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U5.bmp"
+IDB_6D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D6.bmp"
+IDB_6U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U6.bmp"
+IDB_7D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D7.bmp"
+IDB_7U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U7.bmp"
+IDB_8D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D8.bmp"
+IDB_8U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U8.bmp"
+IDB_9D                  BITMAP  DISCARDABLE     "Buttons\\IDB_D9.bmp"
+IDB_9U                  BITMAP  DISCARDABLE     "Buttons\\IDB_U9.bmp"
+COLOR                   BITMAP  DISCARDABLE     "buttons\\bmp0d1.bmp"
+IDB_PROB_NCR_D          BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - nCr - Down.bmp"
+IDB_PROB_NCR_U          BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - nCr - Up.bmp"
+IDB_PROB_FACT_D         BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - NFac - Down.bmp"
+IDB_PROB_FACT_U         BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - NFac - Up.bmp"
+IDB_PROB_NPR_D          BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - nPr - Down.bmp"
+IDB_PROB_NPR_U          BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - nPr - Up.bmp"
+IDB_PROB_IRAND_D        BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - iRand - Down.bmp"
+IDB_PROB_IRAND_U        BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - iRand - Up.bmp"
+IDB_TEST_NE_U           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - NE - Up.bmp"
+IDB_TEST_EQ_U           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - EQ - Up.bmp"
+IDB_TEST_GT_D           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - GT - Down.bmp"
+IDB_TEST_GT_U           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - GT - Up.bmp"
+IDB_TEST_GTE_D          BITMAP  DISCARDABLE     "Buttons\\Test\\Test - GTE - Down.bmp"
+IDB_TEST_GTE_U          BITMAP  DISCARDABLE     "Buttons\\Test\\Test - GTE - Up.bmp"
+IDB_TEST_LT_D           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - LT - Down.bmp"
+IDB_TEST_LT_U           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - LT - Up.bmp"
+IDB_TEST_LTE_D          BITMAP  DISCARDABLE     "Buttons\\Test\\Test - LTE - Down.bmp"
+IDB_TEST_LTE_U          BITMAP  DISCARDABLE     "Buttons\\Test\\Test - LTE - Up.bmp"
+IDB_TEST_NE_D           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - NE - Down.bmp"
+IDB_TEST_EQ_D           BITMAP  DISCARDABLE     "Buttons\\Test\\Test - EQ - Down.bmp"
+IDB_MATH_IPART_U        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - iPart - Up.bmp"
+IDB_MATH_ABS_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - abs - Up.bmp"
+IDB_MATH_FPART_D        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - fPart - Down.bmp"
+IDB_MATH_FPART_U        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - fPart - Up.bmp"
+IDB_MATH_GCD_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - GCD - Down.bmp"
+IDB_MATH_GCD_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - GCD - Up.bmp"
+IDB_MATH_INT_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - int - Down.bmp"
+IDB_MATH_INT_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - int - Up.bmp"
+IDB_MATH_LCM_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - LCM - Down.bmp"
+IDB_MATH_LCM_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - LCM - Up.bmp"
+IDB_MATH_MAX_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - max - Down.bmp"
+IDB_MATH_MIN_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - min - Down.bmp"
+IDB_MATH_MIN_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - min - Up.bmp"
+IDB_MATH_PERCENT_D      BITMAP  DISCARDABLE     "Buttons\\Math\\Math - percentage - Down.bmp"
+IDB_MATH_PERCENT_U      BITMAP  DISCARDABLE     "Buttons\\Math\\Math - percentage - Up.bmp"
+IDB_MATH_ROUND_D        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - Round - Down.bmp"
+IDB_MATH_ROUND_U        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - Round - Up.bmp"
+IDB_MATH_IPART_D        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - iPart - Down.bmp"
+IDB_MATH_MAX_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - max - Up.bmp"
+IDB_MATH_ABS_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - abs - Down.bmp"
+IDB_PROB_FRAND_D        BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - fRand - Down.bmp"
+IDB_PROB_FRAND_U        BITMAP  DISCARDABLE     "Buttons\\Prob\\Prob - fRand - Up.bmp"
+IDB_TAB_IMG             BITMAP  DISCARDABLE     "res\\tab_img.bmp"
+IDB_MATH_MOD_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - mod - Up.bmp"
+IDB_MATH_MOD_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - mod - Down.bmp"
+IDB_MATH_FLOOR_U        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - floor - Up.bmp"
+IDB_MATH_CEIL_U         BITMAP  DISCARDABLE     "Buttons\\Math\\Math - ceil - Up.bmp"
+IDB_MATH_FLOOR_D        BITMAP  DISCARDABLE     "Buttons\\Math\\Math - floor - Down.bmp"
+IDB_MATH_CEIL_D         BITMAP  DISCARDABLE     "Buttons\\Math\\Math - ceil - Down.bmp"
+IDB_OPEN                BITMAP  DISCARDABLE     "res\\open.bmp"
+IDB_SAVE                BITMAP  DISCARDABLE     "res\\save.bmp"
+IDB_PASTE               BITMAP  DISCARDABLE     "res\\paste.bmp"
+IDB_CUT                 BITMAP  DISCARDABLE     "res\\cut.bmp"
+IDB_COPY                BITMAP  DISCARDABLE     "res\\copy.bmp"
+IDB_32U_2               BITMAP  DISCARDABLE     "Buttons\\IDB_U32_2.bmp"
+IDB_32D_2               BITMAP  DISCARDABLE     "Buttons\\IDB_D32_2.bmp"
+IDB_STATS_VARIANCE_U    BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - var - Up.bmp"
+IDB_STATS_MEAN_U        BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - mean - Up.bmp"
+IDB_STATS_MEDIAN_D      BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - median - Down.bmp"
+IDB_STATS_MEDIAN_U      BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - median - Up.bmp"
+IDB_STATS_MODE_D        BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - mode - Down.bmp"
+IDB_STATS_MODE_U        BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - mode - Up.bmp"
+IDB_STATS_STDEV_D       BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - stdev - Down.bmp"
+IDB_STATS_STDEV_U       BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - stdev - Up.bmp"
+IDB_STATS_VARIANCE_D    BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - var - Down.bmp"
+IDB_STATS_MEAN_D        BITMAP  DISCARDABLE     "Buttons\\Stats\\Stats - mean - Down.bmp"
+IDB_MATH_FIB_U          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - fib - Up.bmp"
+IDB_MATH_FIB_D          BITMAP  DISCARDABLE     "Buttons\\Math\\Math - fib - Down.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\logo.bmp"
+IDB_FU                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - F - Up.bmp"
+IDB_AU                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - A - Up.bmp"
+IDB_BD                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - B - Down.bmp"
+IDB_BU                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - B - Up.bmp"
+IDB_CD                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - C - Down.bmp"
+IDB_CU                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - C - Up.bmp"
+IDB_DD                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - D - Down.bmp"
+IDB_DU                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - D - Up.bmp"
+IDB_ED                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - E - Down.bmp"
+IDB_EU                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - E - Up.bmp"
+IDB_FD                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - F - Down.bmp"
+IDB_AD                  BITMAP  DISCARDABLE     "Buttons\\Letters\\Hex - A - Down.bmp"
+IDR_2DGRAPH             BITMAP  DISCARDABLE     "res\\toolbars\\2dgraph.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_POINT_DOWN          CURSOR  DISCARDABLE     "res\\cur00003.cur"
+IDC_POINT_LEFT          CURSOR  DISCARDABLE     "res\\cur00007.cur"
+IDC_POINT_UR            CURSOR  DISCARDABLE     "res\\cursor3.cur"
+IDC_POINT_LL            CURSOR  DISCARDABLE     "res\\cursor4.cur"
+IDC_POINT_UL            CURSOR  DISCARDABLE     "res\\cursor5.cur"
+IDC_POINT_RIGHT         CURSOR  DISCARDABLE     "res\\cursor6.cur"
+IDC_POINT_LR            CURSOR  DISCARDABLE     "res\\cursor7.cur"
+IDC_POINT_UP            CURSOR  DISCARDABLE     "res\\cursor8.cur"
+IDC_HAND                CURSOR  DISCARDABLE     "res\\H_arrow.cur"
+IDC_HAND_MOVE           CURSOR  DISCARDABLE     "res\\H_move.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_ACCELERATOR ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            ID_2DGRAPH_ANALYSIS_INTERCEPTS, VIRTKEY, CONTROL, 
+                                                    NOINVERT
+    "A",            ID_GRAPH_ADDGRAPHTAB,   VIRTKEY, ALT, NOINVERT
+    "A",            ID_PALETES_STATS,       VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_FILE_CATALOG,        VIRTKEY, ALT, NOINVERT
+    "D",            ID_GRAPH_DISTANCE,      VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_GRAPH_ZOOM_DECIMAL,  VIRTKEY, ALT, NOINVERT
+    "D",            ID_PALETES_LETTERS,     VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "E",            ID_GRAPH_EVALUATE,      VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_FILE_EQUATIONSOLVER, VIRTKEY, CONTROL, ALT, NOINVERT
+    "E",            ID_OPTIONS_SOUND_EFFECTS, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "F",            ID_GRAPH_FINDAREA,      VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_GRAPH_ZOOM_FIT,      VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "G",            ID_CTRLG,               VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_FILE_OPTIONS_TOOLTIPS, VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "I",            ID_2DGRAPH_ANALYSIS_INTERSECTIONOF2EQUATIONS, VIRTKEY, 
+                                                    CONTROL, NOINVERT
+    "I",            ID_GRAPH_ZOOM_INTEGER,  VIRTKEY, ALT, NOINVERT
+    "L",            ID_GRAPH_TANGENTLINE,   VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_FILE_OPTIONS_DISAPLAYDETAILEDOUTPUT, VIRTKEY, SHIFT, 
+                                                    CONTROL, NOINVERT
+    "M",            ID_ANALYSIS_EQ_MINMAX,  VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_OPTIONS_MODE,        VIRTKEY, CONTROL, ALT, NOINVERT
+    "M",            ID_PALETES_MATH,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "N",            ID_GRAPH_RENAMETAB,     VIRTKEY, ALT, NOINVERT
+    "N",            ID_PALETES_NONE,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "O",            ID_FILE_LOADSETTINGSFILE, VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_SAVEOUTPUT,     VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_GRAPH_ZOOM_PREVIOUSRANGE, VIRTKEY, CONTROL, ALT, 
+                                                    NOINVERT
+    "P",            ID_PALETES_PROB,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "Q",            ID_QUIT_SCRIPT,         VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_FILE_OPTIONS_EXPRESSIONFONT, VIRTKEY, CONTROL, 
+                                                    NOINVERT
+    "R",            ID_GRAPH_REMOVEGRAPHTAB, VIRTKEY, ALT, NOINVERT
+    "S",            ID_FILE_OPTIONS_SAVESETTINGSNOW, VIRTKEY, CONTROL, 
+                                                    NOINVERT
+    "S",            ID_GRAPH_ZOOM_STANDARD, VIRTKEY, ALT, NOINVERT
+    "S",            ID_FILE_SAVESETTINGSAS, VIRTKEY, CONTROL, ALT, NOINVERT
+    "S",            ID_FILE_OPTIONS_SAVESETTINGSONEXIT, VIRTKEY, SHIFT, 
+                                                    CONTROL, NOINVERT
+    "T",            ID_GRAPH_GRAPHTRACE,    VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_GRAPH_ZOOM_TRIG,     VIRTKEY, ALT, NOINVERT
+    "T",            ID_PALETES_TEST,        VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F10,         ID_GRAPH_ZOOM_OUT_X,    VIRTKEY, NOINVERT
+    VK_F11,         ID_GRAPH_ZOOM_OUT_Y,    VIRTKEY, NOINVERT
+    VK_F6,          ID_GRAPH_ZOOM_IN_XY,    VIRTKEY, NOINVERT
+    VK_F7,          ID_GRAPH_ZOOM_IN_X,     VIRTKEY, NOINVERT
+    VK_F8,          ID_GRAPH_ZOOM_IN_Y,     VIRTKEY, NOINVERT
+    VK_F9,          ID_GRAPH_ZOOM_OUT_XY,   VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MODE DLGINIT
+BEGIN
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0031, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0032, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0033, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0034, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0035, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0036, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0037, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0038, 
+    IDC_NUM_FREQ, 0x403, 2, 0
+0x0039, 
+    IDC_NUM_FREQ, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0031, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0032, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0033, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0034, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0035, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0036, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0037, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0038, 
+    IDC_DEC_FREQ, 0x403, 2, 0
+0x0039, 
+    IDC_DEC_FREQ, 0x403, 3, 0
+0x3031, "\000" 
+    0
+END
+
+IDD_PRINT DLGINIT
+BEGIN
+    IDC_WIDTH_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_WIDTH_UNITS, 0x403, 3, 0
+0x6d63, "\000" 
+    IDC_HEIGHT_UNITS, 0x403, 7, 0
+0x6e69, 0x6863, 0x7365, "\000" 
+    IDC_HEIGHT_UNITS, 0x403, 3, 0
+0x6d63, "\000" 
+    0
+END
+
+IDD_2DGRAPH_OPTIONS_2 DLGINIT
+BEGIN
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_FONT_SIZE, 0x403, 3, 0
+0x3632, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_GRPHCALC            REGISTRY DISCARDABLE    "GrphCalc.rgs"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_2DGRAPH TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_GRAPH_ZOOM_IN_XY
+    BUTTON      ID_GRAPH_ZOOM_OUT_XY
+    BUTTON      ID_GRAPH_ZOOM_PREVIOUSRANGE
+    BUTTON      ID_GRAPH_ZOOM_STANDARD
+    SEPARATOR
+    BUTTON      ID_GRAPH_COPYGRAPH
+    SEPARATOR
+    BUTTON      ID_GRAPH_GRAPHTRACE
+    BUTTON      ID_GRAPH_TANGENTLINE
+    BUTTON      ID_GRAPH_FINDAREA
+    SEPARATOR
+    BUTTON      ID_GRAPH_EQUATIONS
+    BUTTON      ID_GRAPH_EVALUATE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About GraphCalc..."
+    CG_IDS_PROGRESS_CAPTION "Calculating..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_TANGENTLINE    "Draw tangent line"
+    ID_GRAPH_COPYGRAPH      "Copy graph to clipboard"
+    ID_OPTIONS_ALWAYSONTOP  "Make GraphCalc stay on top of all other windows"
+    ID_GRAPH_EQUATIONS      "Equation options dialog"
+    ID_OPTIONS_GRAPH        "Displays options for current graph"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_SOUND_EFFECTS        "Toggles the sound effects on/off"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_GRAPHTRACE     "Trace the current graph"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_FINDAREA       "Find the area under a graph"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_FULLSCREEN      "View graph in full window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_ADDGRAPHTAB    "Add a graph tab"
+    ID_GRAPH_REMOVEGRAPHTAB "Removes the current selected graph tab"
+    ID_GRAPH_RENAMETAB      "Renames the current graph tab"
+    ID_GRAPH_ZOOM_STANDARD  "Zoom standard"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CLEAR_5              "Clears Formula History"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_OPTIONS_TOOLTIPD "Toggles the ToolTips on or off"
+    ID_GRAPH_ZOOM_PREVIOUSRANGE "Zoom previous"
+    ID_GRAPH_EVALUATE       "Evaluate function"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "GraphCalc\n\nGraphI\nGraphCalc Files (*.gcs, *.gcl)\n.gcs\n.gcl"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPH_ZOOM_IN_XY     "Zoom in"
+    ID_GRAPH_ZOOM_OUT_XY    "Zoom out"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_2D_INFOBAR      "Turn infobar on and off"
+    ID_VIEW_2D_TOOLBAR      "Turn toolbar on and off"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\GrphCalc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
